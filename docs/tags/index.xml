@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Alberto Moyano</title>
+    <link>https://albertomoyano.github.io/blog-personal/tags/</link>
+    <description>Recent content in Tags on Alberto Moyano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://albertomoyano.github.io/blog-personal/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bibTeX</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/bibtex/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/tags/bibtex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LaTeX</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/latex/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ortotipografía</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/ortotipograf%C3%ADa/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/tags/ortotipograf%C3%ADa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/tags/index/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

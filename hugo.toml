@@ -1,0 +1,7 @@
+baseURL = 'https://albertomoyano.github.io/blog-personal/'
+title = 'Alberto Moyano'
+theme = "github-style"
+publishDir = "docs"
+paginate = 6
+languageCode = "es"
+DefaultContentLanguage = "es"
