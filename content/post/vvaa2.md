@@ -4,8 +4,7 @@ title: "La bibliografía en libros de 2"
 date: "2022-09-08"
 description: "En una compilación, ¿donde van las referencias bibliográficas?"
 tags: ["bibTeX", "ortotipografía", "LaTeX",]
-draft: false
-
+pin: true
 ---
 
 Como consecuencia de una pregunta que se dio en un [seminario que cursé en la UBA](https://www.linkedin.com/groups/12515598/).
