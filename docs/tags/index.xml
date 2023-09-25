@@ -8,11 +8,11 @@
     <language>es</language>
     <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://albertomoyano.github.io/blog-personal/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>bibTeX</title>
-      <link>https://albertomoyano.github.io/blog-personal/tags/bibtex/</link>
+      <title>bibLaTeX</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/biblatex/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://albertomoyano.github.io/blog-personal/tags/bibtex/</guid>
+      <guid>https://albertomoyano.github.io/blog-personal/tags/biblatex/</guid>
       <description></description>
     </item>
     
@@ -31,6 +31,24 @@
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://albertomoyano.github.io/blog-personal/tags/ortotipograf%C3%ADa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>edición</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/edici%C3%B3n/</link>
+      <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/tags/edici%C3%B3n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bibTeX</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/bibtex/</link>
+      <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/tags/bibtex/</guid>
       <description></description>
     </item>
     

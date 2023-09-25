@@ -3,7 +3,7 @@ author: "Alberto Moyano"
 title: "La bibliografía en libros de 2"
 date: "2023-04-08"
 description: "En una compilación, ¿donde van las referencias bibliográficas?"
-tags: ["bibTeX", "ortotipografía", "LaTeX",]
+tags: ["edición", "ortotipografía", "LaTeX",]
 pin: true
 ---
 
