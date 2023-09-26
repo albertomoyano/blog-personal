@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gambas on Alberto Moyano</title>
+    <link>https://albertomoyano.github.io/blog-personal/tags/gambas/</link>
+    <description>Recent content in gambas on Alberto Moyano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 27 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://albertomoyano.github.io/blog-personal/tags/gambas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Consultas a la RAE</title>
+      <link>https://albertomoyano.github.io/blog-personal/post/rae/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/post/rae/</guid>
+      <description>&lt;p&gt;En el trabajo consulto de manera permanente a varios diccionarios en linea, el de la RAE y el DPD (también de la RAE) son 2 de ellos.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
