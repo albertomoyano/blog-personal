@@ -15,7 +15,7 @@ Estar cambiando de pestañas dentro del navegador (además de obligarme a tenerl
 
 El programa ocupa tan solo 18 líneas de código, las dejo a continuación, la interfaz tiene 1 textbox, 1 botón y 2 webview, eso es todo.
 
-{{< highlight latex >}}
+{{< highlight basic >}}
 Public Sub Form_Open()
     txtRAE.SetFocus()
     HSplit1.Layout = [1, 1]
