@@ -70,5 +70,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>academia</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/academia/</link>
+      <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/tags/academia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/markdown/</link>
+      <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

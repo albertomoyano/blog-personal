@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>academia on Alberto Moyano</title>
+    <link>https://albertomoyano.github.io/blog-personal/tags/academia/</link>
+    <description>Recent content in academia on Alberto Moyano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 09 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://albertomoyano.github.io/blog-personal/tags/academia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown y los académicos</title>
+      <link>https://albertomoyano.github.io/blog-personal/post/academicos/</link>
+      <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/post/academicos/</guid>
+      <description>&lt;p&gt;En un curso al que asistí hace ya un tiempo, una compañera preguntó que tan dificil era migrar de word a los lenguajes de marcas ligeros.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
