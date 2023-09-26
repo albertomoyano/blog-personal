@@ -5,3 +5,6 @@ publishDir = "docs"
 paginate = 6
 languageCode = "es"
 DefaultContentLanguage = "es"
+
+[taxonomies]
+  tag = 'tags'

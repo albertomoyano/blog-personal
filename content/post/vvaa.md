@@ -1,9 +1,9 @@
 ---
 author: "Alberto Moyano"
-title: "La bibliografía en libros de VVAA"
-date: "2023-09-08"
+title: "Como se hace este blog"
+date: "2023-09-25"
 description: "En una compilación, ¿donde van las referencias bibliográficas?"
-tags: ["bibLaTeX", "ortotipografía", "LaTeX",]
+tags: ["hugo", "gbTeXpublisher", "LaTeX",]
 pin: true
 ---
 

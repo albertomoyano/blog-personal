@@ -1,9 +1,9 @@
 ---
 author: "Alberto Moyano"
-title: "La bibliografía en libros de 2"
-date: "2022-09-08"
+title: "Uso de condicionales en tipografía"
+date: "2023-09-08"
 description: "En una compilación, ¿donde van las referencias bibliográficas?"
-tags: ["bibTeX", "LaTeX",]
+tags: ["tipografía", "diseño",]
 pin: true
 ---
 
