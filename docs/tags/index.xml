@@ -35,42 +35,6 @@
     </item>
     
     <item>
-      <title>diseño</title>
-      <link>https://albertomoyano.github.io/blog-personal/tags/dise%C3%B1o/</link>
-      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://albertomoyano.github.io/blog-personal/tags/dise%C3%B1o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tipografía</title>
-      <link>https://albertomoyano.github.io/blog-personal/tags/tipograf%C3%ADa/</link>
-      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://albertomoyano.github.io/blog-personal/tags/tipograf%C3%ADa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>edición</title>
-      <link>https://albertomoyano.github.io/blog-personal/tags/edici%C3%B3n/</link>
-      <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://albertomoyano.github.io/blog-personal/tags/edici%C3%B3n/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ortotipografía</title>
-      <link>https://albertomoyano.github.io/blog-personal/tags/ortotipograf%C3%ADa/</link>
-      <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://albertomoyano.github.io/blog-personal/tags/ortotipograf%C3%ADa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>academia</title>
       <link>https://albertomoyano.github.io/blog-personal/tags/academia/</link>
       <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
@@ -80,11 +44,38 @@
     </item>
     
     <item>
+      <title>edición</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/edici%C3%B3n/</link>
+      <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/tags/edici%C3%B3n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>markdown</title>
       <link>https://albertomoyano.github.io/blog-personal/tags/markdown/</link>
       <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://albertomoyano.github.io/blog-personal/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PDF</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/pdf/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/tags/pdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postscript</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/postscript/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/tags/postscript/</guid>
       <description></description>
     </item>
     
@@ -112,6 +103,24 @@
       <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://albertomoyano.github.io/blog-personal/tags/artes-gr%C3%A1ficas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>editores</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/editores/</link>
+      <pubDate>Sat, 22 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/tags/editores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>procesadores</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/procesadores/</link>
+      <pubDate>Sat, 22 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/tags/procesadores/</guid>
       <description></description>
     </item>
     

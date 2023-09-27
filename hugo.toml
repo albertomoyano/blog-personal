@@ -8,3 +8,5 @@ DefaultContentLanguage = "es"
 
 [taxonomies]
   tag = 'tags'
+
+
