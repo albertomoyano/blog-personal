@@ -13,6 +13,14 @@ pin = true
 
 ## Marco teórico
 
+![](https://albertomoyano.github.io/blog-personal/images/gutenberg.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/ciclos.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/completo.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/literada.png)
+
 ![](https://albertomoyano.github.io/blog-personal/images/archivo.png)
 
 ## Práctica real
