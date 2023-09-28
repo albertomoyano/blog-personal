@@ -62,14 +62,13 @@ Scolari[^3] se plantea si podremos leer un PDF dentro de 100 años, su análisis
 
 La edición científica necesita una transformación --esencialmente enriquecedora-- sobre su modelo de producción, a efectos de poder garantizar --sin fechas de vencimiento-- su capacidad de poder mantenerse en el tiempo asegurando el procesamiento y la difusión de sus contenidos. El método elegido para la edición científica, es en gran medida responsable de la calidad de las fuentes de información que produce. Los variados saberes involucrados, le otorgan a esta profesión un desempeño interdisciplinario complejo dentro del campo de la producción del conocimiento.
 
+Me arriesgo a pensar que en esta nueva etapa del desarrollo de los procesos de edición, su reproducción, distribución y conservación, el profesional de la edición seguirá siendo un *cliente* si no adquiere las habilidades necesarias para convertirse en su propio arquitecto.
+
 Matthew Carter en una exposición en el 2014 lo planteó en términos muy simples:
 
 > La pregunta es, ¿una restricción obliga a un compromiso? Aceptando una restricción, ¿estás trabajando a un nivel inferior? (...). La distinción entre una restricción y un compromiso es, obviamente, muy sutil, pero es muy central en mi actitud hacia el trabajo (min. 4:57).
 
 {{< youtube xjxyEwjG2Es >}}
-
-Me arriesgo a pensar que en esta nueva etapa del desarrollo de los procesos de edición, su reproducción, distribución y conservación, el profesional de la edición seguirá siendo un *cliente* si no adquiere las habilidades necesarias para convertirse en su propio arquitecto.
-
 
 [^1]: De Bono, Edward (1967). [*New Think: The Use of Lateral thinking*](https://books.google.com.ar/books/about/El_pensamiento_lateral_pr%C3%A1ctico.html?id=ir_PDOmfHBwC&printsec=frontcover&source=kp_read_button&hl=es-419&redir_esc=y#v=onepage&q&f=false), Avon Books.
 

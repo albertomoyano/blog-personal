@@ -6,13 +6,22 @@
     <description>Recent content in Tags on Alberto Moyano</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://albertomoyano.github.io/blog-personal/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Sep 2023 19:49:16 -0300</lastBuildDate><atom:link href="https://albertomoyano.github.io/blog-personal/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>gbTeXpublisher</title>
       <link>https://albertomoyano.github.io/blog-personal/tags/gbtexpublisher/</link>
-      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Sep 2023 19:49:16 -0300</pubDate>
       
       <guid>https://albertomoyano.github.io/blog-personal/tags/gbtexpublisher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LaTeX</title>
+      <link>https://albertomoyano.github.io/blog-personal/tags/latex/</link>
+      <pubDate>Wed, 27 Sep 2023 19:49:16 -0300</pubDate>
+      
+      <guid>https://albertomoyano.github.io/blog-personal/tags/latex/</guid>
       <description></description>
     </item>
     
@@ -22,15 +31,6 @@
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://albertomoyano.github.io/blog-personal/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LaTeX</title>
-      <link>https://albertomoyano.github.io/blog-personal/tags/latex/</link>
-      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://albertomoyano.github.io/blog-personal/tags/latex/</guid>
       <description></description>
     </item>
     
