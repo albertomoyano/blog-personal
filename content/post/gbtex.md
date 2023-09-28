@@ -60,6 +60,12 @@ pin = true
 
 ![](https://albertomoyano.github.io/blog-personal/images/literada.png)
 
+## Gambas
+
+> Gambas es un lenguaje de programación libre derivado de BASIC (de ahí que Gambas quiere decir Gambas Almost Means Basic). Se distribuye con licencia GNU GPL. Cabe destacar que presenta ciertas similitudes con Java ya que en la ejecución de cualquier aplicación, se requiere un conjunto de bibliotecas intérprete previamente instaladas (Gambas Runtime) que entiendan el bytecode de las aplicaciones desarrolladas y lo conviertan en código ejecutable por el computador (Wikipedia).
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla10.png)
+
 ## Accediendo a los primeros formularios
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla06.png)
