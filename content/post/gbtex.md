@@ -13,7 +13,10 @@ pin = true
 
 ## Marco teórico
 
+
 ## Práctica real
 
 
+![](https://albertomoyano.github.io/blog-personal/images/pantalla01.png)
 
+![](https://albertomoyano.github.io/blog-personal/images/pantalla02.png)
