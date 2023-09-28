@@ -13,6 +13,7 @@ pin = true
 
 ## Marco teórico
 
+![](https://albertomoyano.github.io/blog-personal/images/archivo.png)
 
 ## Práctica real
 
@@ -20,3 +21,9 @@ pin = true
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla01.png)
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla02.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla03.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla04.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla05.png)
