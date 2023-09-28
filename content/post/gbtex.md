@@ -17,6 +17,9 @@ pin = true
 
 ## Práctica real
 
+![](https://albertomoyano.github.io/blog-personal/images/pantalla06.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla07.png)
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla01.png)
 
@@ -27,3 +30,5 @@ pin = true
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla04.png)
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla05.png)
+
+
