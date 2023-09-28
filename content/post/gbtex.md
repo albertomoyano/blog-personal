@@ -60,11 +60,15 @@ pin = true
 
 ![](https://albertomoyano.github.io/blog-personal/images/literada.png)
 
-## Práctica real
+## Accediendo a los primeros formularios
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla06.png)
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla08.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla09.png)
+
+## Primeros pasos
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla07.png)
 
