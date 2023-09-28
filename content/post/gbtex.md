@@ -19,13 +19,52 @@ pin = true
 
 ![](https://albertomoyano.github.io/blog-personal/images/completo.png)
 
-![](https://albertomoyano.github.io/blog-personal/images/literada.png)
+## Pequeña radiografía de LaTeX
+
+{{< highlight latex >}}
+\documentclass{book}% acá comienza el preámbulo
+
+% carga de paquetes y funciones
+
+\begin{document}% acá comienza en documento
+
+% contenido y funciones
+
+\end{document}
+{{< /highlight >}}
+
+{{< highlight latex >}}
+...
+
+\begin{document}% acá comienza en documento
+\frontmatter
+
+% en el mundo editorial este espacio también es conocido como «primeras».
+
+\mainmatter
+
+% cuerpo principal del texto
+
+\appendix
+
+% apéndices
+
+\backmatter
+
+% listado de índices
+
+\end{document}
+{{< /highlight >}}
 
 ![](https://albertomoyano.github.io/blog-personal/images/archivo.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/literada.png)
 
 ## Práctica real
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla06.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla08.png)
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla07.png)
 
