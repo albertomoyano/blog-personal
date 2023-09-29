@@ -117,7 +117,13 @@ Ahora bien, veamos como se compone internamente la división primaria del área 
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla10.png)
 
-## gbTeXpublisher, accediendo a los primeros formularios
+## gbTeXpublisher
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla11.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla12.png)
+
+## Accediendo a los primeros formularios
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla06.png)
 
