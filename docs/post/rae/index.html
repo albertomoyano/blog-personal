@@ -262,10 +262,10 @@
   const gitalk = new Gitalk({
     clientID: 'd1fdf5459aedc0cfee68',
     clientSecret: '2c51a0ede16d5ff7df95195f3c98c55dc5937bb7',
-    repo: 'albertomoyano.github.io',
+    repo: 'albertomoyano.github.io\/blog-personal',
     owner: 'albertomoyano',
     admin: ['albertomoyano'],
-    id: eval("location.pathname"), 
+    id: eval("md5(location.pathname)"), 
     distractionFreeMode: false 
   });
   (function() {
