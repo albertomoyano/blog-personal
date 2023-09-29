@@ -350,6 +350,24 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <link rel="stylesheet" href='https://albertomoyano.github.io/blog-personal/css/toc.css' />
 
 
+<div id="gitalk-container" class="gitalk-container"></div>
+<link rel="stylesheet" href='https://albertomoyano.github.io/blog-personal/css/gitalk.css'>
+<script src='https://albertomoyano.github.io/blog-personal/js/gitalk.min.js'></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: 'd1fdf5459aedc0cfee68',
+    clientSecret: '2c51a0ede16d5ff7df95195f3c98c55dc5937bb7',
+    repo: 'albertomoyano.github.io',
+    owner: 'albertomoyano',
+    admin: ['albertomoyano'],
+    id: eval("location.pathname"), 
+    distractionFreeMode: false 
+  });
+  (function() {
+    gitalk.render('gitalk-container');
+  })();
+</script>
+
 
   <div class="footer container-xl width-full p-responsive">
   <div
