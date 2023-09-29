@@ -18,7 +18,8 @@
 
     
     <meta name="description"
-  content="123
+  content="Artículo en desarrollo
+En este artículo voy a presentar gbTeXpublisher, una aplicación de escritorio orientada al proceso de producción editorial, me parece oportuno comenzar con una introducción teórica sobre los modelos existentes.
 " />
 <meta name="keywords"
   content='blog, latex, edición' />
@@ -29,7 +30,8 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Presentación de gbTeXpublisher - Alberto Moyano" />
 <meta name="twitter:description"
-  content="123
+  content="Artículo en desarrollo
+En este artículo voy a presentar gbTeXpublisher, una aplicación de escritorio orientada al proceso de producción editorial, me parece oportuno comenzar con una introducción teórica sobre los modelos existentes.
 " />
 <meta name="twitter:site" content="https://albertomoyano.github.io/blog-personal/" />
 <meta name="twitter:creator" content="Alberto Moyano" />
@@ -40,7 +42,8 @@
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Presentación de gbTeXpublisher - Alberto Moyano">
 <meta property="og:description"
-  content="123
+  content="Artículo en desarrollo
+En este artículo voy a presentar gbTeXpublisher, una aplicación de escritorio orientada al proceso de producción editorial, me parece oportuno comenzar con una introducción teórica sobre los modelos existentes.
 " />
 <meta property="og:url" content="https://albertomoyano.github.io/blog-personal/post/gbtex/" />
 <meta property="og:site_name" content="Presentación de gbTeXpublisher" />
@@ -186,7 +189,7 @@
                         </div>
                       </div>
                     </details-menu>
-                      141 palabras
+                      1363 palabras
                     
 
                   </div>
@@ -218,12 +221,38 @@
 
 
               <div class="Box-body px-5 pb-5" style="z-index: 1">
-                <article class="markdown-body entry-content container-lg"><p>123</p>
-<h2 id="marco-teórico">Marco teórico</h2>
-<p><img src="https://albertomoyano.github.io/blog-personal/images/gutenberg.png" alt=""></p>
+                <article class="markdown-body entry-content container-lg"><p><strong>Artículo en desarrollo</strong></p>
+<p>En este artículo voy a presentar gbTeXpublisher, una aplicación de escritorio orientada al proceso de producción editorial, me parece oportuno comenzar con una introducción teórica sobre los modelos existentes.</p>
+<p>Creo que es posible decir que la edición es íntegramente digital desde comienzo de los noventa, ya que los diferentes intervinientes del proceso editorial, han terminado incorporando a las computadoras en su uso diario para escribir y producir, así también podemos asegurar que hoy las imprentas (por dar un ejemplo del proceso) solo reciben trabajos en formato digital.</p>
+<p>Sin embargo, también es posible observar que la tradición editorial no ha sabido captar &ndash;al menos hasta ahora&ndash; que este cambio en la forma de producir, no refiere solo al hecho de utilizar nuevas técnicas, herramientas o dispositivos, sino también a la pérdida de los fundamentos básicos que existen en el proceso de edición.</p>
+<p>La idea que propongo consiste en trabajar sobre un modelo de edición estandarizada, automatizada, multiformato y multisoporte, o como es conocida: <strong>edición literada</strong>. Para lograr esto es necesario evitar cualquier tipo de enfoque <a href="https://es.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a> para dar lugar a un enfoque <a href="https://es.wikipedia.org/wiki/WYSIWYM">WYSIWYM</a>.</p>
+<p><a href="blank:#https://es.wikipedia.org/wiki/Brian_Kernighan">Brian Kernighan</a> dijo alguna vez que el problema con el WYSIWYG (<em>lo que ves es lo que obtienes</em>) es que en realidad <em>lo que ves es <strong>TODO</strong> lo que obtienes</em>.  Las interfaces gráficas son excelentes para muchas cosas y yo las utilizo de manera constante. Pero también uso la consola con un <em>Shell</em> cuando necesito elasticidad, ya que es mucho más conveniente para algunas tareas, ahí entra el WYSIWYM.</p>
+<h2 id="edición-cíclica">Edición cíclica</h2>
+<p>Podemos observar en la figura a continuación que la edición cíclica se concentra en la posibilidad de producir al mismo tiempo para varios soportes de salida (un inicio A, deriva en un destino B, C, etc.), tratando de conservar la idea de que la publicación (en nuestro caso un libro) tiene un solo camino a seguir. Este método de trabajo está arraigado en la idea de que el <em>software</em> de alguna multinacional haga el trabajo milagroso de hacerlo posible, otorgándonos tranquilidad al concebir la conversión a diferentes formatos. Solo cuando se toma conciencia <em>real</em> de la pérdida en la calidad técnica y editorial, se hace patente que la edición cíclica no es el método más óptimo para una producción multiformato y multisoporte.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/ciclos.png" alt=""></p>
+<p>Pero es entendible que esto haya pasado, si observamos como era el modelo de producción editorial antes de la era digital.</p>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/gutenberg.png" alt=""></p>
+<h2 id="edición-literada">Edición literada</h2>
+<p>Cambiemos la perspectiva. ¿Si en lugar de concentrarnos en los diferentes formatos finales, realizamos un ejercicio de pensamiento lateral?<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> La idea es simple: <strong>no nos concentremos en los formatos de salida, sino en los caminos que conducen a ellos</strong>. La conclusión se hace evidente: a múltiples formatos, múltiples caminos.</p>
+<p>Para realizar este modelo de trabajo se utiliza un lenguaje de marcas, es la mejor forma de codificar un documento, ya que se pueden incorporar las marcas que contienen las indicaciones adicionales acerca de la estructura y el diseño necesarios para la representación del texto en la salida deseada.</p>
+<p>La figura a continuación nos muestra un posible modelo de edición literada, donde no existe una secuencia de A con B, sino un inicio de (A) con diversos caminos (B, C, D, etc.), algunos pueden frenar su andar (llegar a su destino final), otros se pueden desprender y convertirse en el inicio de otros nuevos caminos.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/completo.png" alt=""></p>
+<p>Este es un posible camino, que tiene su base en el lenguaje de marcas <a href="blank:#https://es.wikipedia.org/wiki/Markdown">Markdown</a>, pero también existen otros lenguajes como <a href="blank:#https://asciidoc-py.github.io/index.html">asciidoc</a>, <a href="blank:#https://orgmode.org/">Org Mode</a> y por supuesto LaTeX.</p>
+<p>La principal consigna de este método es ir de lo simple a lo complejo. Cada formato de salida tiene sus propias particularidades. Para el PDF de imprenta se requieren ajustes por cuestiones ortotipográficas y de diseño; en el ePub a veces es necesario ordenar figuras o cuadros para una correcta visualización, en una lectura <em>on line</em> se puede sacar provecho de la visualización interactiva y así un largo etcétera. Por consiguiente, lo que se hace imperioso es <strong>evitar la herencia de características</strong>, que es el principal problema que tiene la metodología cíclica, a diferencia de esta, la edición literada se inicia con un documento simple de <a href="blank:#https://es.wikipedia.org/wiki/Archivo_de_texto">texto plano</a> que <strong>contiene solo las marcas</strong> de los elementos estructurales y de diseño, para luego con ajustes automatizados según los diferentes destinos se pueda obtener una salida sin errores.</p>
+<p>Ejemplo conceptual de la lógica a seguir, supongamos que tengo una marca de cita:<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<ol>
+<li>Si la salida es a PDF se aplica «Q» diseño y valor de estructura.</li>
+<li>Si la salida es a ePub se aplica «X» diseño y valor de estructura.</li>
+<li>Si la salida es a XML se aplica «Y» diseño y valor de estructura.</li>
+<li>Si la salida es a HTML se aplica «Z» diseño y valor de estructura.</li>
+</ol>
+<p>Cada salida tiene su propia lógica para su destino, subordinada a un solo patrón de diseño estructural.</p>
+<p>Furtado<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> plantea que en una primera aproximación, las ediciones se diferencian entre ellas por la predominancia que tienen las actividades primarias en la transformación físico-técnica del contenido, esto implica que, desde el punto de vista de la edición, el <em>diseño estructural</em> goza de muchísimo valor.</p>
+<h2 id="el-tiempo-y-la-portabilidad-de-los-contenidos">El tiempo y la portabilidad de los contenidos</h2>
+<p>Scolari<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> se plantea si podremos leer un PDF dentro de 100 años, su análisis arranca de una premisa equivocada, es equivalente a pensar que alguien en la década del sesenta se preguntara lo mismo sobre el <em>cassette</em>. Estos errores de análisis son comunes de encontrar y obedecen a que están atrapados (o enamorados) de las herramientas que utilizan. En 1838 Samuel Morse realizó la invención que hoy nos sigue mostrando cuál es el camino que se debe seguir en las tecnologías digitales.</p>
+<h2 id="la-elección-del-lenguaje">La elección del lenguaje</h2>
 <h2 id="pequeña-radiografía-de-latex">Pequeña radiografía de LaTeX</h2>
+<p>LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensa en la generación de textos científicos. Fue escrito por Leslie Lamport en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica TeX, creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además es software libre bajo licencia LPPL.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#66d9ef">\documentclass</span>{book}<span style="color:#75715e">% acá comienza el preámbulo
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">% carga de paquetes y funciones
@@ -233,6 +262,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#75715e">% contenido y funciones
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{document}</span></span></code></pre></div>
+<p>Ahora bien, veamos como se compone internamente la división primaria del área del documento.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span>...
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{document}<span style="color:#75715e">% acá comienza en documento
@@ -253,14 +283,15 @@
 </span></span><span style="display:flex;"><span><span style="color:#75715e">% listado de índices
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{document}</span></span></code></pre></div>
+<h2 id="entonces">¿Entonces?</h2>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/archivo.png" alt=""></p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/literada.png" alt=""></p>
 <h2 id="gambas">Gambas</h2>
 <blockquote>
-<p>Gambas es un lenguaje de programación libre derivado de BASIC (de ahí que Gambas quiere decir Gambas Almost Means Basic). Se distribuye con licencia GNU GPL. Cabe destacar que presenta ciertas similitudes con Java ya que en la ejecución de cualquier aplicación, se requiere un conjunto de bibliotecas intérprete previamente instaladas (Gambas Runtime) que entiendan el bytecode de las aplicaciones desarrolladas y lo conviertan en código ejecutable por el computador (Wikipedia).</p>
+<p>Gambas es un lenguaje de programación libre derivado de BASIC (de ahí que Gambas quiere decir <strong>G</strong>ambas <strong>A</strong>lmost <strong>M</strong>eans <strong>Bas</strong>ic). Se distribuye con licencia GNU GPL. Cabe destacar que presenta ciertas similitudes con Java, ya que para la ejecución de cualquier aplicación, se requiere un intérprete previamente instalado (Gambas Runtime) que entienda el bytecode de las aplicaciones desarrolladas y lo convierta en código ejecutable por el computador (Wikipedia).</p>
 </blockquote>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla10.png" alt=""></p>
-<h2 id="accediendo-a-los-primeros-formularios">Accediendo a los primeros formularios</h2>
+<h2 id="gbtexpublisher-accediendo-a-los-primeros-formularios">gbTeXpublisher, accediendo a los primeros formularios</h2>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla06.png" alt=""></p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla08.png" alt=""></p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla09.png" alt=""></p>
@@ -270,7 +301,35 @@
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla02.png" alt=""></p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla03.png" alt=""></p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla04.png" alt=""></p>
-<p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla05.png" alt=""></p></article>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla05.png" alt=""></p>
+<h2 id="comentario-final">Comentario final</h2>
+<p>La edición científica necesita una transformación &ndash;esencialmente enriquecedora&ndash; sobre su modelo de producción, a efectos de poder garantizar &ndash;sin fechas de vencimiento&ndash; su capacidad de poder mantenerse en el tiempo asegurando el procesamiento y la difusión de sus contenidos. El método elegido para la edición científica, es en gran medida responsable de la calidad de las fuentes de información que produce. Los variados saberes involucrados, le otorgan a esta profesión un desempeño interdisciplinario complejo dentro del campo de la producción del conocimiento.</p>
+<p>Matthew Carter en una exposición en el 2014 lo planteó en términos muy simples:</p>
+<blockquote>
+<p>La pregunta es, ¿una restricción obliga a un compromiso? Aceptando una restricción, ¿estás trabajando a un nivel inferior? (&hellip;). La distinción entre una restricción y un compromiso es, obviamente, muy sutil, pero es muy central en mi actitud hacia el trabajo (min. 4:57).</p>
+</blockquote>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/xjxyEwjG2Es" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>De Bono, Edward (1967). <a href="https://books.google.com.ar/books/about/El_pensamiento_lateral_pr%C3%A1ctico.html?id=ir_PDOmfHBwC&amp;printsec=frontcover&amp;source=kp_read_button&amp;hl=es-419&amp;redir_esc=y#v=onepage&amp;q&amp;f=false"><em>New Think: The Use of Lateral thinking</em></a>, Avon Books.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Puede ser cualquier valor de la estructura: título, referencia, fórmula, etcétera.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Furtado, José Afonso (2014). <a href="https://www.eduvim.com.ar/libro/9789876991735-la-edicion-de-libros-y-la-gestion-estrategica"><em>La edición de libros y la gestión estratégica</em></a>, Córdoba: EDUVIM.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Scolari, Carlos (2010) <a href="https://hipermediaciones.com/2010/11/11/%c2%bfpodremos-leer-un-pdf-dentro-de-100-anos/"><em>¿Podremos leer un PDF dentro de 100 años?</em></a>.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div></article>
               </div>
             </div>
           </div>
