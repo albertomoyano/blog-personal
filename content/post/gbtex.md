@@ -123,6 +123,8 @@ Ahora bien, veamos como se compone internamente la división primaria del área 
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla12.png)
 
+![](https://albertomoyano.github.io/blog-personal/images/pantalla13.png)
+
 ## Accediendo a los primeros formularios
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla06.png)
