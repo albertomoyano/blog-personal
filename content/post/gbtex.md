@@ -121,22 +121,25 @@ Ahora bien, veamos como se compone internamente la división primaria del área 
 
 ## Gambas
 
-No soy programador, me identifico plenamente como editor con una fuerte formación en artes gráficas (tuve taller de preprensa e imprenta muchos años), así que mis conocimientos son en base a mucha lectura y práctica. Estuve durante mucho tiempo lidiando con Python, Objet Pascal [(Lazarus)](https://es.wikipedia.org/wiki/Lazarus_(entorno_de_desarrollo)) y algo de Ruby, y reconozco ventajas en todos estos lenguajes, pero a la hora de resolver como encarar gbTeXpublisher, me decidí por Gambas.
+No soy programador, me identifico plenamente como editor con una fuerte formación en artes gráficas (tuve taller de preprensa e imprenta muchos años), así que mis conocimientos son en base a mucha lectura y práctica. Estuve durante mucho tiempo lidiando con [Python](https://es.wikipedia.org/wiki/Python), Objet Pascal [(Lazarus)](https://es.wikipedia.org/wiki/Lazarus_(entorno_de_desarrollo)) y algo de [Ruby](https://es.wikipedia.org/wiki/Ruby), y reconozco ventajas en todos estos lenguajes, pero a la hora de resolver como encarar gbTeXpublisher, me decidí por [Gambas](https://gambas.sourceforge.net/en/main.html).
 
-> Gambas es un lenguaje de programación libre derivado de BASIC (de ahí que Gambas quiere decir **G**ambas **A**lmost **M**eans **Bas**ic). Se distribuye con licencia GNU GPL. Cabe destacar que presenta ciertas similitudes con Java, ya que para la ejecución de cualquier aplicación, se requiere un intérprete previamente instalado (Gambas Runtime) que entienda el bytecode de las aplicaciones desarrolladas y lo convierta en código ejecutable por el computador (Wikipedia).
+> Gambas es un lenguaje de programación libre derivado de BASIC (de ahí que Gambas quiere decir **G**ambas **A**lmost **M**eans **Bas**ic). Se distribuye con licencia GNU GPL. Cabe destacar que presenta ciertas similitudes con Java, ya que para la ejecución de cualquier aplicación, se requiere un intérprete previamente instalado (Gambas Runtime) que entienda el bytecode de las aplicaciones desarrolladas y lo convierta en código ejecutable por el computador [(wikipedia)](https://es.wikipedia.org/wiki/Gambas).
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla10.png)
 
 Los motivos de mi elección son varios, y también pueden ser cuestionados, va un pequeño listado:
 
-1. No programamo para terceros, lo hago para mí uso personal.
+1. No programo para terceros, lo hago para mí uso personal.
 2. Utilizo Linux (desde 1993) en el 90% de mis tareas, y me siento muy cómodo en él.
-3. Gambas es un RAD.
-4. Es muy rápido y potente.
+3. Gambas es un [RAD](https://es.wikipedia.org/wiki/Desarrollo_r%C3%A1pido_de_aplicaciones).
+4. Es muy rápido y potente [(Benchmarks)](https://gambas.sourceforge.net/en/main.html#).
 
 
 
 ## gbTeXpublisher
+
+Cuando se está editando un solo libro, se pueden tener cieras libertades, pero cuando se tienen 7 o 9 libros de manera constante en el flujo de producción, la cosa cambia. El orden y el principio de [DRY](https://es.wikipedia.org/wiki/No_te_repitas) se vuelve más que importante si queremos tener una sana optimización de los recursos.
+
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla11.png)
 
