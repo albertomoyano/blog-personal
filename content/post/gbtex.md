@@ -9,9 +9,17 @@ pin = true
 
 **Artículo en desarrollo**
 
-En este artículo voy a presentar gbTeXpublisher, una aplicación de escritorio orientada al proceso de producción editorial, me parece oportuno comenzar con una introducción teórica sobre los modelos existentes.
+gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya que desde hace bastante tiempo adhiero a la edición literada y encuentro en LaTeX la vía apropiada para conseguirlo, hice intentos con markdown, asciidoc y asciidoctor, pero al final del recorrido siempre encontraba problemas, fundamentalmente en la salida a PDF, me estoy refiriendo a una salida con un alto estándar de calidad tipográfica.
 
 <!--more-->
+
+gbTeXpublisher es una aplicación de escritorio que permite gestionar los procesos de producción editorial de manera fácil y con pocos conocimientos, me gusta pensar en esta aplicación como un facilitador, ya que todo lo que se puede hacer **con ella**, también se puede hacer **sin ella**, la diferencia radica en la facilidad que otorga su interfaz.
+
+gbTeXpublisher es también el resultado del enorme trabajo de muchas personas, quiero hacer una mención especial para Donald Knuth, Benoît Minisini y los foros de CervanTeX y Gambas, dejo para lo último a Michal Hoftich, el aporte de su desarrollo a sido clave en el rumbo que tomaron mis decisiones de producción.
+
+gbTeXpublisher posee licencia GPL3.
+
+Este artículo es un intento de presentación formal y me parece oportuno comenzar con una introducción teórica sobre los modelos de producción editorial al día de hoy.
 
 Creo que es posible decir que la edición es íntegramente digital desde comienzo de los noventa, ya que los diferentes intervinientes del proceso editorial, han terminado incorporando a las computadoras en su uso diario para escribir y producir, así también podemos asegurar que hoy las imprentas (por dar un ejemplo del proceso) solo reciben trabajos en formato digital.
 

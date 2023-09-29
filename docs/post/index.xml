@@ -14,7 +14,7 @@
       
       <guid>https://albertomoyano.github.io/blog-personal/post/gbtex/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Artículo en desarrollo&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;En este artículo voy a presentar gbTeXpublisher, una aplicación de escritorio orientada al proceso de producción editorial, me parece oportuno comenzar con una introducción teórica sobre los modelos existentes.&lt;/p&gt;</description>
+&lt;p&gt;gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya que desde hace bastante tiempo adhiero a la edición literada y encuentro en LaTeX la vía apropiada para conseguirlo, hice intentos con markdown, asciidoc y asciidoctor, pero al final del recorrido siempre encontraba problemas, fundamentalmente en la salida a PDF, me estoy refiriendo a una salida con un alto estándar de calidad tipográfica.&lt;/p&gt;</description>
     </item>
     
     <item>
