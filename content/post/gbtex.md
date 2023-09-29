@@ -9,15 +9,15 @@ pin = true
 
 **Artículo en desarrollo**
 
-gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya que desde hace bastante tiempo adhiero a la edición literada y encuentro en LaTeX la vía apropiada para conseguirlo, hice intentos con markdown, asciidoc y asciidoctor, pero al final del recorrido siempre encontraba problemas, fundamentalmente en la salida a PDF, me estoy refiriendo a una salida con un alto estándar de calidad tipográfica.
+gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya que desde hace bastante tiempo adhiero a la edición ramificada y encuentro en [LaTeX](https://es.wikipedia.org/wiki/LaTeX) la vía apropiada para conseguirlo, hice intentos con markdown, asciidoc y asciidoctor, pero al final del recorrido siempre encontraba problemas, fundamentalmente en la salida a PDF, me estoy refiriendo a una salida con un alto estándar de calidad tipográfica.
 
 <!--more-->
 
 gbTeXpublisher es una aplicación de escritorio que permite gestionar los procesos de producción editorial de manera fácil y con pocos conocimientos, me gusta pensar en esta aplicación como un facilitador, ya que todo lo que se puede hacer **con ella**, también se puede hacer **sin ella**, la diferencia radica en la facilidad que otorga su interfaz.
 
-gbTeXpublisher es también el resultado del enorme trabajo de muchas personas, quiero hacer una mención especial para Donald Knuth, Benoît Minisini y los foros de CervanTeX y Gambas, dejo para lo último a Michal Hoftich, el aporte de su desarrollo a sido clave en el rumbo que tomaron mis decisiones de producción.
+gbTeXpublisher es también el resultado del enorme trabajo de muchas personas, quiero hacer una mención especial para [Donald Knuth](https://es.wikipedia.org/wiki/Donald_Knuth), [Benoît Minisini](https://en.wikipedia.org/wiki/Beno%C3%AEt_Minisini) y los foros de [CervanTeX](http://cervantex.es/) y [Gambas](https://es.wikipedia.org/wiki/Gambas), dejo para lo último a [Michal Hoftich](https://www.kodymirus.cz/), el aporte de su desarrollo a sido clave en el rumbo que tomaron mis decisiones de producción.
 
-gbTeXpublisher posee licencia GPL3.
+gbTeXpublisher posee [licencia GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 Este artículo es un intento de presentación formal y me parece oportuno comenzar con una introducción teórica sobre los modelos de producción editorial al día de hoy.
 
@@ -25,9 +25,9 @@ Creo que es posible decir que la edición es íntegramente digital desde comienz
 
 Sin embargo, también es posible observar que la tradición editorial no ha sabido captar --al menos hasta ahora-- que este cambio en la forma de producir, no refiere solo al hecho de utilizar nuevas técnicas, herramientas o dispositivos, sino también a la pérdida de los fundamentos básicos que existen en el proceso de edición.
 
-La idea que propongo consiste en trabajar sobre un modelo de edición estandarizada, automatizada, multiformato y multisoporte, o como es conocida: **edición literada**. Para lograr esto es necesario evitar cualquier tipo de enfoque [WYSIWYG](https://es.wikipedia.org/wiki/WYSIWYG) para dar lugar a un enfoque [WYSIWYM](https://es.wikipedia.org/wiki/WYSIWYM).
+La idea que propongo consiste en trabajar sobre un modelo de edición estandarizada, automatizada, multiformato y multisoporte, o como es conocida: **edición ramificada**. Para lograr esto es necesario evitar cualquier tipo de enfoque [WYSIWYG](https://es.wikipedia.org/wiki/WYSIWYG) para dar lugar a un enfoque [WYSIWYM](https://es.wikipedia.org/wiki/WYSIWYM).
 
-[Brian Kernighan](blank:#https://es.wikipedia.org/wiki/Brian_Kernighan) dijo alguna vez que el problema con el WYSIWYG (*lo que ves es lo que obtienes*) es que en realidad *lo que ves es **TODO** lo que obtienes*.  Las interfaces gráficas son excelentes para muchas cosas y yo las utilizo de manera constante. Pero también uso la consola con un *Shell* cuando necesito elasticidad, ya que es mucho más conveniente para algunas tareas, ahí entra el WYSIWYM.
+[Brian Kernighan](blank:#https://es.wikipedia.org/wiki/Brian_Kernighan) dijo alguna vez que el problema con el WYSIWYG (*lo que ves es lo que obtienes*) es que en realidad *lo que ves es **TODO** lo que obtienes*.  Las interfaces gráficas son excelentes para muchas cosas y yo las utilizo de manera constante. Pero también uso la consola con un *Shell* cuando necesito elasticidad, ya que es mucho más conveniente para algunas tareas, ahí entra el [WYSIWYM](https://es.wikipedia.org/wiki/WYSIWYM).
 
 ## Edición cíclica
 
@@ -39,19 +39,19 @@ Pero es entendible que esto haya pasado, si observamos como era el modelo de pro
 
 ![](https://albertomoyano.github.io/blog-personal/images/gutenberg.png)
 
-## Edición literada
+## Edición ramificada
 
 Cambiemos la perspectiva. ¿Si en lugar de concentrarnos en los diferentes formatos finales, realizamos un ejercicio de pensamiento lateral?[^1] La idea es simple: **no nos concentremos en los formatos de salida, sino en los caminos que conducen a ellos**. La conclusión se hace evidente: a múltiples formatos, múltiples caminos.
 
 Para realizar este modelo de trabajo se utiliza un lenguaje de marcas, es la mejor forma de codificar un documento, ya que se pueden incorporar las marcas que contienen las indicaciones adicionales acerca de la estructura y el diseño necesarios para la representación del texto en la salida deseada.
 
-La figura a continuación nos muestra un posible modelo de edición literada, donde no existe una secuencia de A con B, sino un inicio de (A) con diversos caminos (B, C, D, etc.), algunos pueden frenar su andar (llegar a su destino final), otros se pueden desprender y convertirse en el inicio de otros nuevos caminos.
+La figura a continuación nos muestra un posible modelo de edición ramificada, donde no existe una secuencia de A con B, sino un inicio de (A) con diversos caminos (B, C, D, etc.), algunos pueden frenar su andar (llegar a su destino final), otros se pueden desprender y convertirse en el inicio de otros nuevos caminos.
 
 ![](https://albertomoyano.github.io/blog-personal/images/completo.png)
 
 Este es un posible camino, que tiene su base en el lenguaje de marcas [Markdown](blank:#https://es.wikipedia.org/wiki/Markdown), pero también existen otros lenguajes como [asciidoc](blank:#https://asciidoc-py.github.io/index.html), [Org Mode](blank:#https://orgmode.org/) y por supuesto LaTeX.
 
-La principal consigna de este método es ir de lo simple a lo complejo. Cada formato de salida tiene sus propias particularidades. Para el PDF de imprenta se requieren ajustes por cuestiones ortotipográficas y de diseño; en el ePub a veces es necesario ordenar figuras o cuadros para una correcta visualización, en una lectura *on line* se puede sacar provecho de la visualización interactiva y así un largo etcétera. Por consiguiente, lo que se hace imperioso es **evitar la herencia de características**, que es el principal problema que tiene la metodología cíclica, a diferencia de esta, la edición literada se inicia con un documento simple de [texto plano](blank:#https://es.wikipedia.org/wiki/Archivo_de_texto) que **contiene solo las marcas** de los elementos estructurales y de diseño, para luego con ajustes automatizados según los diferentes destinos se pueda obtener una salida sin errores.
+La principal consigna de este método es ir de lo simple a lo complejo. Cada formato de salida tiene sus propias particularidades. Para el PDF de imprenta se requieren ajustes por cuestiones ortotipográficas y de diseño; en el ePub a veces es necesario ordenar figuras o cuadros para una correcta visualización, en una lectura *on line* se puede sacar provecho de la visualización interactiva y así un largo etcétera. Por consiguiente, lo que se hace imperioso es **evitar la herencia de características**, que es el principal problema que tiene la metodología cíclica, a diferencia de esta, la edición ramificada se inicia con un documento simple de [texto plano](blank:#https://es.wikipedia.org/wiki/Archivo_de_texto) que **contiene solo las marcas** de los elementos estructurales y de diseño, para luego con ajustes automatizados según los diferentes destinos se pueda obtener una salida sin errores.
 
 Ejemplo conceptual de la lógica a seguir, supongamos que tengo una marca de cita:[^cita]
 
@@ -70,7 +70,7 @@ Scolari[^3] se plantea si podremos leer un PDF dentro de 100 años, su análisis
 
 ## La elección del lenguaje
 
-
+La elección de LaTeX como lenguaje de trabajo para el flujo de producción
 
 ## Pequeña radiografía de LaTeX
 
@@ -130,7 +130,7 @@ No soy programador, me identifico plenamente como editor con una fuerte formaci�
 Los motivos de mi elección son varios, y también pueden ser cuestionados, va un pequeño listado:
 
 1. No programo para terceros, lo hago para mí uso personal.
-2. Utilizo Linux (desde 1993) en el 90% de mis tareas, y me siento muy cómodo en él.
+2. Utilizo Linux (desde 1993) en el 90% de mis tareas, y me siento muy cómodo con él entorno de trabajo.
 3. Gambas es un [RAD](https://es.wikipedia.org/wiki/Desarrollo_r%C3%A1pido_de_aplicaciones).
 4. Es muy rápido y potente [(Benchmarks)](https://gambas.sourceforge.net/en/main.html#).
 
@@ -144,7 +144,7 @@ Al instalar gbTeXpublisher se creara una carpeta oculta dentro del `home.user` (
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla11.png)
 
-El programa no trabaja **desde** el archivo de LaTeX, sino que lo hace **con** el archivo. Esto da plena y absoluta libertad de trabajar el texto con el editor que mejor le plazca al usuario. De así que también su interfaz de incio pueda sorprender, ya que no dice nada, esto se observa mejor al notar que algunos menues están deshabilitados y se activan una vez que se haya elegido un archivo con el cual trabajar. La imagen a continuación lo ilustra.
+El programa no trabaja **desde** el archivo de LaTeX, sino que lo hace **con** el archivo. Esto da plena y absoluta libertad de trabajar el texto con el editor que mejor le plazca al usuario. De ahí que su interfaz de incio pueda sorprender --ya que no dice nada-- esto se observa mejor al notar que algunos menúes están deshabilitados y se activan una vez que se haya elegido un archivo con el cual trabajar. La imagen a continuación lo ilustra.
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla01.png)
 
@@ -152,24 +152,29 @@ Una vez que hayamos seleccionado un archivo para trabajar, la pantalla puede par
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla02.png)
 
-Volviendo al inicio, en un párrafo anterior dije que algunos menúes están deshabilitados hasta que se elija un archivo .tex para trabajar, asun así algunos menúes sí están habilitados, esto obedece a una situación simple.
+Volviendo al inicio en un párrafo anterior, dije que algunos menúes están deshabilitados hasta que se elija un archivo `.tex` para trabajar, otros sí están habilitados, estos se corresponden con tareas que involucran el área de trabajo, otros archivos y tareas no vinculadas con el proceso de compilación.
+
+El primero que encontramos es el formulario para la conversión de archivos word (`.docx`) a formato `.tex`, el proceso se realiza utilizando [pandoc](https://pandoc.org/), junto con la conversión se realizan dos tareas más: 1) se crean 2 carpetas (originales y media) dentro del directorio de trabajo y 2) se mueve el archivo word a la carpeta originales.
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla06.png)
+
+El segundo es el formulario de apuntes, su idea y desarrollo surgieron de manera natural. Antes de gbTeXpublisher, a medida que iba trabajando tomaba apuntes sobre el proceso, ya sea consultas que debía hacer, buscar en otros archivos ese pedazo de código que alguna vez use o simplemente apuntes de ayuda memoria temporal, todo eso es lo que se vuelca en este formulario, el programa almacena toda la información en la base de datos.
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla08.png)
+
+En tercer lugar
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla09.png)
+
+Y en cuarto el formulario para manejar las referencias bibliográficas
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla07.png)
+
+## Accediendo a los primeros formularios
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla12.png)
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla13.png)
-
-## Accediendo a los primeros formularios
-
-![](https://albertomoyano.github.io/blog-personal/images/pantalla06.png)
-
-![](https://albertomoyano.github.io/blog-personal/images/pantalla08.png)
-
-![](https://albertomoyano.github.io/blog-personal/images/pantalla09.png)
-
-## Primeros pasos
-
-![](https://albertomoyano.github.io/blog-personal/images/pantalla07.png)
-
 
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla03.png)
