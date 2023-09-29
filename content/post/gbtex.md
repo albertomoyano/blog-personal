@@ -138,8 +138,9 @@ Los motivos de mi elección son varios, y también pueden ser cuestionados, va u
 
 ## gbTeXpublisher
 
-Cuando se está editando un solo libro, se pueden tener cieras libertades, pero cuando se tienen 7 o 9 libros de manera constante en el flujo de producción, la cosa cambia. El orden y el principio de [DRY](https://es.wikipedia.org/wiki/No_te_repitas) se vuelve más que importante si queremos tener una sana optimización de los recursos.
+Cuando se está editando un solo libro, se pueden tener ciertas libertades, pero cuando se tienen 7 o 9 libros de manera constante en el flujo de producción, la cosa cambia. El orden y el principio de [DRY](https://es.wikipedia.org/wiki/No_te_repitas) se vuelve más que importante si queremos tener una sana optimización de los recursos.
 
+Al instalar gbTeXpublisher se creara una carpeta oculta dentro del `home.user` (léase carpeta personal), donde se alojara la base de datos, la instalación copia una base de datos con un número determinado de entradas que sirven como ejemplo, esto vale para las notas y las referencias bibliográficas. En la figura a continuación lo resalto con una línea roja.
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla11.png)
 
