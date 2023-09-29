@@ -144,6 +144,16 @@ Al instalar gbTeXpublisher se creara una carpeta oculta dentro del `home.user` (
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla11.png)
 
+El programa no trabaja **desde** el archivo de LaTeX, sino que lo hace **con** el archivo. Esto da plena y absoluta libertad de trabajar el texto con el editor que mejor le plazca al usuario. De así que también su interfaz de incio pueda sorprender, ya que no dice nada, esto se observa mejor al notar que algunos menues están deshabilitados y se activan una vez que se haya elegido un archivo con el cual trabajar. La imagen a continuación lo ilustra.
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla01.png)
+
+Una vez que hayamos seleccionado un archivo para trabajar, la pantalla puede parecerse a esta.
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla02.png)
+
+Volviendo al inicio, en un párrafo anterior dije que algunos menúes están deshabilitados hasta que se elija un archivo .tex para trabajar, asun así algunos menúes sí están habilitados, esto obedece a una situación simple.
+
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla12.png)
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla13.png)
@@ -160,9 +170,7 @@ Al instalar gbTeXpublisher se creara una carpeta oculta dentro del `home.user` (
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla07.png)
 
-![](https://albertomoyano.github.io/blog-personal/images/pantalla01.png)
 
-![](https://albertomoyano.github.io/blog-personal/images/pantalla02.png)
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla03.png)
 
