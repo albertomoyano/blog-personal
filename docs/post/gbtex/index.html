@@ -189,7 +189,7 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
                         </div>
                       </div>
                     </details-menu>
-                      2070 palabras
+                      2233 palabras
                     
 
                   </div>
@@ -230,7 +230,7 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <p>Creo que es posible decir que la edición es íntegramente digital desde comienzo de los noventa, ya que los diferentes intervinientes del proceso editorial, han terminado incorporando a las computadoras en su uso diario para escribir y producir, así también podemos asegurar que hoy las imprentas (por dar un ejemplo del proceso) solo reciben trabajos en formato digital.</p>
 <p>Sin embargo, también es posible observar que la tradición editorial no ha sabido captar &ndash;al menos hasta ahora&ndash; que este cambio en la forma de producir, no refiere solo al hecho de utilizar nuevas técnicas, herramientas o dispositivos, sino también a la pérdida de los fundamentos básicos que existen en el proceso de edición.</p>
 <p>La idea que propongo consiste en trabajar sobre un modelo de edición estandarizada, automatizada, multiformato y multisoporte, o como es conocida: <strong>edición ramificada</strong>. Para lograr esto es necesario evitar cualquier tipo de enfoque <a href="https://es.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a> para dar lugar a un enfoque <a href="https://es.wikipedia.org/wiki/WYSIWYM">WYSIWYM</a>.</p>
-<p><a href="blank:#https://es.wikipedia.org/wiki/Brian_Kernighan">Brian Kernighan</a> dijo alguna vez que el problema con el WYSIWYG (<em>lo que ves es lo que obtienes</em>) es que en realidad <em>lo que ves es <strong>TODO</strong> lo que obtienes</em>.  Las interfaces gráficas son excelentes para muchas cosas y yo las utilizo de manera constante. Pero también uso la consola con un <em>Shell</em> cuando necesito elasticidad, ya que es mucho más conveniente para algunas tareas, ahí entra el <a href="https://es.wikipedia.org/wiki/WYSIWYM">WYSIWYM</a>.</p>
+<p><a href="https://es.wikipedia.org/wiki/Brian_Kernighan">Brian Kernighan</a> dijo alguna vez que el problema con el WYSIWYG (<em>lo que ves es lo que obtienes</em>) es que en realidad <em>lo que ves es <strong>TODO</strong> lo que obtienes</em>.  Las interfaces gráficas son excelentes para muchas cosas y yo las utilizo de manera constante. Pero también uso la consola con un <em>Shell</em> cuando necesito elasticidad, ya que es mucho más conveniente para algunas tareas, ahí entra el <a href="https://es.wikipedia.org/wiki/WYSIWYM">WYSIWYM</a>.</p>
 <h2 id="edición-cíclica">Edición cíclica</h2>
 <p>Podemos observar en la figura a continuación que la edición cíclica se concentra en la posibilidad de producir al mismo tiempo para varios soportes de salida (un inicio A, deriva en un destino B, C, etc.), tratando de conservar la idea de que la publicación (en nuestro caso un libro) tiene un solo camino a seguir. Este método de trabajo está arraigado en la idea de que el <em>software</em> de alguna multinacional haga el trabajo milagroso de hacerlo posible, otorgándonos tranquilidad al concebir la conversión a diferentes formatos. Solo cuando se toma conciencia <em>real</em> de la pérdida en la calidad técnica y editorial, se hace patente que la edición cíclica no es el método más óptimo para una producción multiformato y multisoporte.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/ciclos.png" alt=""></p>
@@ -241,8 +241,8 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <p>Para realizar este modelo de trabajo se utiliza un lenguaje de marcas, es la mejor forma de codificar un documento, ya que se pueden incorporar las marcas que contienen las indicaciones adicionales acerca de la estructura y el diseño necesarios para la representación del texto en la salida deseada.</p>
 <p>La figura a continuación nos muestra un posible modelo de edición ramificada, donde no existe una secuencia de A con B, sino un inicio de (A) con diversos caminos (B, C, D, etc.), algunos pueden frenar su andar (llegar a su destino final), otros se pueden desprender y convertirse en el inicio de otros nuevos caminos.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/completo.png" alt=""></p>
-<p>Este es un posible camino, que tiene su base en el lenguaje de marcas <a href="blank:#https://es.wikipedia.org/wiki/Markdown">Markdown</a>, pero también existen otros lenguajes como <a href="blank:#https://asciidoc-py.github.io/index.html">asciidoc</a>, <a href="blank:#https://orgmode.org/">Org Mode</a> y por supuesto LaTeX.</p>
-<p>La principal consigna de este método es ir de lo simple a lo complejo. Cada formato de salida tiene sus propias particularidades. Para el PDF de imprenta se requieren ajustes por cuestiones ortotipográficas y de diseño; en el ePub a veces es necesario ordenar figuras o cuadros para una correcta visualización, en una lectura <em>on line</em> se puede sacar provecho de la visualización interactiva y así un largo etcétera. Por consiguiente, lo que se hace imperioso es <strong>evitar la herencia de características</strong>, que es el principal problema que tiene la metodología cíclica, a diferencia de esta, la edición ramificada se inicia con un documento simple de <a href="blank:#https://es.wikipedia.org/wiki/Archivo_de_texto">texto plano</a> que <strong>contiene solo las marcas</strong> de los elementos estructurales y de diseño, para luego con ajustes automatizados según los diferentes destinos se pueda obtener una salida sin errores.</p>
+<p>Este es un posible camino, que tiene su base en el lenguaje de marcas <a href="https://es.wikipedia.org/wiki/Markdown">Markdown</a>, pero también existen otros lenguajes como <a href="https://asciidoc-py.github.io/index.html">asciidoc</a>, <a href="https://orgmode.org/">Org Mode</a> y por supuesto LaTeX.</p>
+<p>La principal consigna de este método es ir de lo simple a lo complejo. Cada formato de salida tiene sus propias particularidades. Para el PDF de imprenta se requieren ajustes por cuestiones ortotipográficas y de diseño; en el ePub a veces es necesario ordenar figuras o cuadros para una correcta visualización, en una lectura <em>on line</em> se puede sacar provecho de la visualización interactiva y así un largo etcétera. Por consiguiente, lo que se hace imperioso es <strong>evitar la herencia de características</strong>, que es el principal problema que tiene la metodología cíclica, a diferencia de esta, la edición ramificada se inicia con un documento simple de <a href="https://es.wikipedia.org/wiki/Archivo_de_texto">texto plano</a> que <strong>contiene solo las marcas</strong> de los elementos estructurales y de diseño, para luego con ajustes automatizados según los diferentes destinos se pueda obtener una salida sin errores.</p>
 <p>Ejemplo conceptual de la lógica a seguir, supongamos que tengo una marca de cita:<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <ol>
 <li>Si la salida es a PDF se aplica «Q» diseño y valor de estructura.</li>
@@ -257,7 +257,7 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <h2 id="la-elección-del-lenguaje">La elección del lenguaje</h2>
 <p>La elección de LaTeX como lenguaje de trabajo para el flujo de producción</p>
 <h2 id="pequeña-radiografía-de-latex">Pequeña radiografía de LaTeX</h2>
-<p>LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensa en la generación de textos científicos. Fue escrito por Leslie Lamport en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica TeX, creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además es software libre bajo licencia LPPL.</p>
+<p>LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensa en la generación de textos científicos. Fue escrito por Leslie Lamport en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica TeX, creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además es software libre bajo <a href="https://es.wikipedia.org/wiki/LaTeX_Project_Public_License">licencia LPPL</a>.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#66d9ef">\documentclass</span>{book}<span style="color:#75715e">% acá comienza el preámbulo
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">% carga de paquetes y funciones
@@ -300,7 +300,7 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <p>Los motivos de mi elección son varios, y también pueden ser cuestionados, va un pequeño listado:</p>
 <ol>
 <li>No programo para terceros, lo hago para mí uso personal.</li>
-<li>Utilizo Linux (desde 1993) en el 90% de mis tareas, y me siento muy cómodo con él entorno de trabajo.</li>
+<li>Utilizo Linux (desde 1993) en el 90% de mis tareas, y me siento muy cómodo con el entorno de trabajo.</li>
 <li>Gambas es un <a href="https://es.wikipedia.org/wiki/Desarrollo_r%C3%A1pido_de_aplicaciones">RAD</a>.</li>
 <li>Es muy rápido y potente <a href="https://gambas.sourceforge.net/en/main.html#">(Benchmarks)</a>.</li>
 </ol>
@@ -312,15 +312,25 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla01.png" alt=""></p>
 <p>Una vez que hayamos seleccionado un archivo para trabajar, la pantalla puede parecerse a esta.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla02.png" alt=""></p>
-<p>Volviendo al inicio en un párrafo anterior, dije que algunos menúes están deshabilitados hasta que se elija un archivo <code>.tex</code> para trabajar, otros sí están habilitados, estos se corresponden con tareas que involucran el área de trabajo, otros archivos y tareas no vinculadas con el proceso de compilación.</p>
+<p>Volviendo al inicio, en un párrafo anterior dije que algunos menúes están deshabilitados hasta que se elija un archivo <code>.tex</code> para trabajar, otros sí están habilitados, estos se corresponden con tareas que involucran el área de trabajo, otros archivos y tareas no vinculadas con el proceso de compilación.</p>
 <p>El primero que encontramos es el formulario para la conversión de archivos word (<code>.docx</code>) a formato <code>.tex</code>, el proceso se realiza utilizando <a href="https://pandoc.org/">pandoc</a>, junto con la conversión se realizan dos tareas más: 1) se crean 2 carpetas (originales y media) dentro del directorio de trabajo y 2) se mueve el archivo word a la carpeta originales.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla06.png" alt=""></p>
 <p>El segundo es el formulario de apuntes, su idea y desarrollo surgieron de manera natural. Antes de gbTeXpublisher, a medida que iba trabajando tomaba apuntes sobre el proceso, ya sea consultas que debía hacer, buscar en otros archivos ese pedazo de código que alguna vez use o simplemente apuntes de ayuda memoria temporal, todo eso es lo que se vuelca en este formulario, el programa almacena toda la información en la base de datos.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla08.png" alt=""></p>
-<p>En tercer lugar</p>
+<p>En tercer formulario</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla09.png" alt=""></p>
-<p>Y en cuarto el formulario para manejar las referencias bibliográficas</p>
+<p>Y el cuarto es para manejar las referencias bibliográficas, por momentos dudo de si este formulario no debería ser una aplicación en sí misma, no por su manejo, sino por su base de datos, hoy el programa trabaja con <a href="https://es.wikipedia.org/wiki/SQLite">SQLite</a>, que para trabajar de manera individual, es lo mejor que conozco, pero si el trabajo se quisiera realizar en modo colaborativo, debería migrar a otro motor (analizo <a href="https://es.wikipedia.org/wiki/MariaDB">MaríaDB</a> como opción).</p>
+<p>Todas las entradas están basadas en <a href="https://www.ctan.org/pkg/biblatex">BibLaTeX</a> que es una reimplementación completa de las funciones bibliográficas proporcionadas por LaTeX. El formato está completamente controlado por macros de LaTeX. BibLaTeX utiliza su propio analizador de datos llamado «biber» (escrito en <a href="https://es.wikipedia.org/wiki/Perl">Perl</a>) para procesar los datos bibliográficos.</p>
+<p>Por <em>default</em> gbTeXpublisher para el formato <em>book</em> entrega un archivo configurado para la salida a PDF con el diseño autor-año desarrollado por Ivan Valbusa (<a href="https://ctan.org/pkg/biblatex-philosophy">biblatex-philosophy</a>) y el estándar autor-año de bibLaTeX para el resto de las salidas, para el formato <em>article</em> entrega un archivo con el diseño autor-año de <a href="https://www.ctan.org/pkg/biblatex-apa">biblatex-APA</a> y, por supuesto, todas estas salidas son modificables.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla07.png" alt=""></p>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/b1.png" alt=""></p>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/b2.png" alt=""></p>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/b3.png" alt=""></p>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/b4.png" alt=""></p>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/b5.png" alt=""></p>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/b6.png" alt=""></p>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/b7.png" alt=""></p>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/b8.png" alt=""></p>
 <h2 id="accediendo-a-los-primeros-formularios">Accediendo a los primeros formularios</h2>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla12.png" alt=""></p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla13.png" alt=""></p>
