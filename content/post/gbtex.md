@@ -74,7 +74,7 @@ La elección de LaTeX como lenguaje de trabajo para el flujo de producción
 
 ## Pequeña radiografía de LaTeX
 
-LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensa en la generación de textos científicos. Fue escrito por Leslie Lamport en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica TeX, creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además es software libre bajo [licencia LPPL](https://es.wikipedia.org/wiki/LaTeX_Project_Public_License).
+LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensa en la generación de textos científicos. Fue escrito por [Leslie Lamport](https://es.wikipedia.org/wiki/Leslie_Lamport) en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica [TeX](https://es.wikipedia.org/wiki/TeX), creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además es software libre bajo [licencia LPPL](https://es.wikipedia.org/wiki/LaTeX_Project_Public_License).
 
 {{< highlight latex >}}
 \documentclass{book}% acá comienza el preámbulo
@@ -134,13 +134,15 @@ Los motivos de mi elección son varios, y también pueden ser cuestionados, va u
 3. Gambas es un [RAD](https://es.wikipedia.org/wiki/Desarrollo_r%C3%A1pido_de_aplicaciones).
 4. Es muy rápido y potente [(Benchmarks)](https://gambas.sourceforge.net/en/main.html#).
 
+## Comenzando con gbTeXpublisher
 
+Cuando se está editando un solo libro, se pueden tener ciertas libertades, pero cuando se tienen 7 o 9 libros de manera constante en el flujo de producción, la cosa cambia. El orden y el principio de [DRY](https://es.wikipedia.org/wiki/No_te_repitas) se vuelve más que importante si queremos tener una sana optimización de los recursos. En gbTeXpublisher se van a encontar funciones predefinidas (rígidas) que aseguran comportamientos contínuos, estables y predecibles.
 
-## gbTeXpublisher
+## Descarga e instalación de la aplicación
 
-Cuando se está editando un solo libro, se pueden tener ciertas libertades, pero cuando se tienen 7 o 9 libros de manera constante en el flujo de producción, la cosa cambia. El orden y el principio de [DRY](https://es.wikipedia.org/wiki/No_te_repitas) se vuelve más que importante si queremos tener una sana optimización de los recursos.
+La descarga se realiza desde...
 
-Al instalar gbTeXpublisher se creara una carpeta oculta dentro del `home.user` (léase carpeta personal), donde se alojara la base de datos, la instalación copia una base de datos con un número determinado de entradas que sirven como ejemplo, esto vale para las notas y las referencias bibliográficas. En la figura a continuación lo resalto con una línea roja.
+Luego de instalar gbTeXpublisher encontraremos una carpeta oculta dentro del `home.user` (léase carpeta personal), donde se alojara la base de datos, el proceso de instalación copia una base de datos con un número determinado de entradas que sirven como ejemplo, esto vale para las notas y las referencias bibliográficas. En la figura a continuación lo resalto con una línea roja.
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla11.png)
 
@@ -193,7 +195,7 @@ Por _default_ gbTeXpublisher para el formato _book_ entrega un archivo configura
 Las siglas, glosarios y nomenclaturas se pueden dar de alta desde este formulario, lo que implica que quedan registrados en la base de datos, o se pueden agregar directamente en el archivo `.tex`.
 
 
-## Accediendo a los primeros formularios
+## A trabajar
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla12.png)
 
@@ -224,7 +226,7 @@ El método [Kanban](https://es.wikipedia.org/wiki/Kanban_(desarrollo))
 
 ## Copia de seguridad del trabajo terminado
 
-Llegado a este punto, el trabajo está terminado, el libro impreso, la versión electrónica subida al repositorio, etcétera. Ha llegado el momento de guardar todo en un depósito de respaldo, yo personalmente utilizo [Mega](https://es.wikipedia.org/wiki/Mega_(sitio_web)), su relación costo/beneficio para este menester es la mejor (hay más opciones, por supuesto), también tengo un abono en Google para expandir mi cuota en Drive, pero lo utilizo para otras cosas. El menú **Comprimir directorio para respaldo**, básicamente lo que hace es una copia comprimiendo todo en formato `.tar.gz`, la imagen a continuación lo dice todo. Después solo resta llevar ese archivo al repositorio de respaldo, y a otra cosa mariposa.
+Llegado a este punto, el trabajo está terminado, el libro impreso, la versión electrónica subida al repositorio, etcétera. Ha llegado el momento de guardar todo en un depósito de respaldo, yo personalmente utilizo [Mega](https://es.wikipedia.org/wiki/Mega_(sitio_web)), su relación costo/beneficio para este menester es la mejor (hay más opciones, por supuesto), también tengo un abono en Google para expandir mi cuota en Drive, pero lo utilizo para otras cosas. El menú **Comprimir directorio para respaldo**, básicamente lo que hace es una copia comprimiendo todo en formato [`.tar.gz`](https://es.wikipedia.org/wiki/Tar), la imagen a continuación lo dice todo. Después solo resta llevar ese archivo al repositorio de respaldo.
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla17.png)
 
