@@ -210,7 +210,16 @@ Las siglas, glosarios y nomenclaturas se pueden dar de alta desde este formulari
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla15.png)
 
+## El trabajo en equipo
+
+El método [Kanban](https://es.wikipedia.org/wiki/Kanban_(desarrollo))
+
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla16.png)
+
+## Copia de seguridad del trabajo final
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla17.png)
+
 ## Comentario final
 
 La edición científica necesita una transformación --esencialmente enriquecedora-- sobre su modelo de producción, a efectos de poder garantizar --sin fechas de vencimiento-- su capacidad de poder mantenerse en el tiempo asegurando el procesamiento y la difusión de sus contenidos. El método elegido para la edición científica, es en gran medida responsable de la calidad de las fuentes de información que produce. Los variados saberes involucrados, le otorgan a esta profesión un desempeño interdisciplinario complejo dentro del campo de la producción del conocimiento.
