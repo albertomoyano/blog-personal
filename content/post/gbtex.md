@@ -204,7 +204,13 @@ Las siglas, glosarios y nomenclaturas se pueden dar de alta desde este formulari
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla04.png)
 
+## Sacando provecho de GitLab
+
+[GitLab](https://es.wikipedia.org/wiki/GitLab)
+
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla05.png)
+
+## Git local y remoto como copia de seguridad temporal
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla14.png)
 
@@ -216,9 +222,14 @@ El método [Kanban](https://es.wikipedia.org/wiki/Kanban_(desarrollo))
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla16.png)
 
-## Copia de seguridad del trabajo final
+## Copia de seguridad del trabajo terminado
+
+Llegado a este punto, el trabajo está terminado, el libro impreso, la versión electrónica subida al repositorio, etcétera. Ha llegado el momento de guardar todo en un depósito de respaldo, yo personalmente utilizo [Mega](https://es.wikipedia.org/wiki/Mega_(sitio_web)), su relación costo/beneficio para este menester es la mejor (hay más opciones, por supuesto), también tengo un abono en Google para expandir mi cuota en Drive, pero lo utilizo para otras cosas. El menú **Comprimir directorio para respaldo**, básicamente lo que hace es una copia comprimiendo todo en formato `.tar.gz`, la imagen a continuación lo dice todo. Después solo resta llevar ese archivo al repositorio de respaldo, y a otra cosa mariposa.
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla17.png)
+
+## Veamos todo esto en un video
+
 
 ## Comentario final
 
