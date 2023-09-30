@@ -190,6 +190,9 @@ Por _default_ gbTeXpublisher para el formato _book_ entrega un archivo configura
 
 ![](https://albertomoyano.github.io/blog-personal/images/b8.png)
 
+Las siglas, glosarios y nomenclaturas se pueden dar de alta desde este formulario, lo que implica que quedan registrados en la base de datos, o se pueden agregar directamente en el archivo `.tex`.
+
+
 ## Accediendo a los primeros formularios
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla12.png)
@@ -203,6 +206,11 @@ Por _default_ gbTeXpublisher para el formato _book_ entrega un archivo configura
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla05.png)
 
+![](https://albertomoyano.github.io/blog-personal/images/pantalla14.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla15.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla16.png)
 ## Comentario final
 
 La edición científica necesita una transformación --esencialmente enriquecedora-- sobre su modelo de producción, a efectos de poder garantizar --sin fechas de vencimiento-- su capacidad de poder mantenerse en el tiempo asegurando el procesamiento y la difusión de sus contenidos. El método elegido para la edición científica, es en gran medida responsable de la calidad de las fuentes de información que produce. Los variados saberes involucrados, le otorgan a esta profesión un desempeño interdisciplinario complejo dentro del campo de la producción del conocimiento.
