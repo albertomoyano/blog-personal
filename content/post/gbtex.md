@@ -72,6 +72,12 @@ Scolari[^3] se plantea si podremos leer un PDF dentro de 100 años, su análisis
 
 La elección de LaTeX como lenguaje de trabajo para el flujo de producción
 
+
+### 2 botones de muestra
+
+Para poder graficar mejor lo dicho en el párrafo anterior, dejo 2 muestras de características obtenidas con LaTeX, imposibles de obtener con otros lenguajes (y con otros programas de DTP) que explican mejor a que me refiero cuando utilizo la expresión «alta calidad tipográfica».
+
+
 ## Pequeña radiografía de LaTeX
 
 LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensa en la generación de textos científicos. Fue escrito por [Leslie Lamport](https://es.wikipedia.org/wiki/Leslie_Lamport) en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica [TeX](https://es.wikipedia.org/wiki/TeX), creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además es software libre bajo [licencia LPPL](https://es.wikipedia.org/wiki/LaTeX_Project_Public_License).
@@ -121,18 +127,19 @@ Ahora bien, veamos como se compone internamente la división primaria del área 
 
 ## Gambas
 
-No soy programador, me identifico plenamente como editor con una fuerte formación en artes gráficas (tuve taller de preprensa e imprenta muchos años), así que mis conocimientos son en base a mucha lectura y práctica. Estuve durante mucho tiempo lidiando con [Python](https://es.wikipedia.org/wiki/Python), Objet Pascal [(Lazarus)](https://es.wikipedia.org/wiki/Lazarus_(entorno_de_desarrollo)) y algo de [Ruby](https://es.wikipedia.org/wiki/Ruby), y reconozco ventajas en todos estos lenguajes, pero a la hora de resolver como encarar gbTeXpublisher, me decidí por [Gambas](https://gambas.sourceforge.net/en/main.html).
+No soy programador, me identifico plenamente como editor con una fuerte formación en artes gráficas (tuve taller de preprensa e imprenta muchos años), así que mis conocimientos son en base a mucha lectura y práctica. Estuve durante mucho tiempo lidiando con [Python](https://es.wikipedia.org/wiki/Python), Objet Pascal [(Lazarus)](https://es.wikipedia.org/wiki/Lazarus_(entorno_de_desarrollo)) y algo de [Ruby](https://es.wikipedia.org/wiki/Ruby), y reconozco ventajas en todos estos lenguajes, pero mi reflexión en la búsqueda de una solución informática consideró el balance entre, calidad, desempleño, facilidad y productividad, el resultado me llevo a encarar gbTeXpublisher, con [Gambas](https://gambas.sourceforge.net/en/main.html).
 
 > Gambas es un lenguaje de programación libre derivado de BASIC (de ahí que Gambas quiere decir **G**ambas **A**lmost **M**eans **Bas**ic). Se distribuye con licencia GNU GPL. Cabe destacar que presenta ciertas similitudes con Java, ya que para la ejecución de cualquier aplicación, se requiere un intérprete previamente instalado (Gambas Runtime) que entienda el bytecode de las aplicaciones desarrolladas y lo convierta en código ejecutable por el computador [(wikipedia)](https://es.wikipedia.org/wiki/Gambas).
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla10.png)
 
-Los motivos de mi elección son varios, y también pueden ser cuestionados, va un pequeño listado:
+Y si bien los motivos en mi elección son varios, también pueden ser cuestionados, aquí dejo los más importantes:
 
 1. No programo para terceros, lo hago para mí uso personal.
 2. Utilizo Linux (desde 1993) en el 90% de mis tareas, y me siento muy cómodo con el entorno de trabajo.
-3. Gambas es un [RAD](https://es.wikipedia.org/wiki/Desarrollo_r%C3%A1pido_de_aplicaciones).
-4. Es muy rápido y potente [(Benchmarks)](https://gambas.sourceforge.net/en/main.html#).
+3. No soy fanático del 100% comandos, ni del 100% mouse, creo en un equilibrio que saque lo mejor de esos modelos.
+4. Gambas es un [RAD](https://es.wikipedia.org/wiki/Desarrollo_r%C3%A1pido_de_aplicaciones).
+5. Es muy rápido y potente [(Benchmarks)](https://gambas.sourceforge.net/en/main.html#).
 
 ## Comenzando con gbTeXpublisher
 
