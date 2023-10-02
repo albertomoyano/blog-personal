@@ -127,7 +127,7 @@ Ahora bien, veamos como se compone internamente la división primaria del área 
 
 ## Gambas
 
-No soy programador, me identifico plenamente como editor con una fuerte formación en artes gráficas (tuve taller de preprensa e imprenta muchos años), así que mis conocimientos son en base a mucha lectura y práctica. Estuve durante mucho tiempo lidiando con [Python](https://es.wikipedia.org/wiki/Python), Objet Pascal [(Lazarus)](https://es.wikipedia.org/wiki/Lazarus_(entorno_de_desarrollo)) y algo de [Ruby](https://es.wikipedia.org/wiki/Ruby), y reconozco ventajas en todos estos lenguajes, pero mi reflexión en la búsqueda de una solución informática consideró el balance entre, calidad, desempleño, facilidad y productividad, el resultado me llevo a encarar gbTeXpublisher, con [Gambas](https://gambas.sourceforge.net/en/main.html).
+No soy programador, me identifico plenamente como editor con una fuerte formación en artes gráficas (tuve taller de preprensa e imprenta muchos años), así que mis conocimientos son en base a mucha lectura y práctica. Estuve durante mucho tiempo lidiando con [Python](https://es.wikipedia.org/wiki/Python), Objet Pascal [(Lazarus)](https://es.wikipedia.org/wiki/Lazarus_(entorno_de_desarrollo)) y algo de [Ruby](https://es.wikipedia.org/wiki/Ruby), y reconozco ventajas en todos estos lenguajes, pero mi reflexión en la búsqueda de una solución informática consideró el balance entre, calidad, desempleño, facilidad y productividad, el resultado me llevo a encarar gbTeXpublisher con [Gambas](https://gambas.sourceforge.net/en/main.html).
 
 > Gambas es un lenguaje de programación libre derivado de BASIC (de ahí que Gambas quiere decir **G**ambas **A**lmost **M**eans **Bas**ic). Se distribuye con licencia GNU GPL. Cabe destacar que presenta ciertas similitudes con Java, ya que para la ejecución de cualquier aplicación, se requiere un intérprete previamente instalado (Gambas Runtime) que entienda el bytecode de las aplicaciones desarrolladas y lo convierta en código ejecutable por el computador [(wikipedia)](https://es.wikipedia.org/wiki/Gambas).
 
@@ -140,6 +140,10 @@ Y si bien los motivos en mi elección son varios, también pueden ser cuestionad
 3. No soy fanático del 100% comandos, ni del 100% mouse, creo en un equilibrio que saque lo mejor de esos modelos.
 4. Gambas es un [RAD](https://es.wikipedia.org/wiki/Desarrollo_r%C3%A1pido_de_aplicaciones).
 5. Es muy rápido y potente [(Benchmarks)](https://gambas.sourceforge.net/en/main.html#).
+
+## Algunas aclaraciones sobre Linux
+
+![](https://albertomoyano.github.io/blog-personal/images/manjaro.png)
 
 ## Comenzando con gbTeXpublisher
 
@@ -171,11 +175,18 @@ El segundo es el formulario de apuntes, su idea y desarrollo surgieron de manera
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla08.png)
 
-En tercer formulario
+## A trabajar
 
-![](https://albertomoyano.github.io/blog-personal/images/pantalla09.png)
+![](https://albertomoyano.github.io/blog-personal/images/pantalla12.png)
 
-Y el cuarto es para manejar las referencias bibliográficas, por momentos dudo de si este formulario no debería ser una aplicación en sí misma, no por su manejo, sino por su base de datos, hoy el programa trabaja con [SQLite](https://es.wikipedia.org/wiki/SQLite), que para trabajar de manera individual, es lo mejor que conozco, pero si el trabajo se quisiera realizar en modo colaborativo, debería migrar a otro motor (analizo [MaríaDB](https://es.wikipedia.org/wiki/MariaDB) como opción).
+![](https://albertomoyano.github.io/blog-personal/images/pantalla13.png)
+
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla03.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla04.png)
+
+El formulario para manejar las referencias bibliográficas, por momentos dudo de si este formulario no debería ser una aplicación en sí misma, no por su manejo, sino por su base de datos, hoy el programa trabaja con [SQLite](https://es.wikipedia.org/wiki/SQLite), que para trabajar de manera individual, es lo mejor que conozco, pero si el trabajo se quisiera realizar en modo colaborativo (en red, abierta o cerrada), debería migrar a otro motor (analizo [MaríaDB](https://es.wikipedia.org/wiki/MariaDB) como opción).
 
 Todas las entradas están basadas en [BibLaTeX](https://www.ctan.org/pkg/biblatex) que es una reimplementación completa de las funciones bibliográficas proporcionadas por LaTeX. El formato está completamente controlado por macros de LaTeX. BibLaTeX utiliza su propio analizador de datos llamado «biber» (escrito en [Perl](https://es.wikipedia.org/wiki/Perl)) para procesar los datos bibliográficos.
 
@@ -200,18 +211,6 @@ Por _default_ gbTeXpublisher para el formato _book_ entrega un archivo configura
 ![](https://albertomoyano.github.io/blog-personal/images/b8.png)
 
 Las siglas, glosarios y nomenclaturas se pueden dar de alta desde este formulario, lo que implica que quedan registrados en la base de datos, o se pueden agregar directamente en el archivo `.tex`.
-
-
-## A trabajar
-
-![](https://albertomoyano.github.io/blog-personal/images/pantalla12.png)
-
-![](https://albertomoyano.github.io/blog-personal/images/pantalla13.png)
-
-
-![](https://albertomoyano.github.io/blog-personal/images/pantalla03.png)
-
-![](https://albertomoyano.github.io/blog-personal/images/pantalla04.png)
 
 ## Sacando provecho de GitLab
 
