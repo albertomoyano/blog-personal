@@ -189,7 +189,7 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
                         </div>
                       </div>
                     </details-menu>
-                      2519 palabras
+                      2652 palabras
                     
 
                   </div>
@@ -256,8 +256,8 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <p>Scolari<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> se plantea si podremos leer un PDF dentro de 100 años, su análisis arranca de una premisa equivocada, es equivalente a pensar que alguien en la década del sesenta se preguntara lo mismo sobre el <em>cassette</em>. Estos errores de análisis son comunes de encontrar y obedecen a que están atrapados (o enamorados) de las herramientas que utilizan. En 1838 Samuel Morse realizó la invención que hoy nos sigue mostrando cuál es el camino que se debe seguir en las tecnologías digitales.</p>
 <h2 id="la-elección-del-lenguaje">La elección del lenguaje</h2>
 <p>La elección de LaTeX como lenguaje de trabajo para el flujo de producción</p>
-<h3 id="2-botones-de-muestra">2 botones de muestra</h3>
-<p>Para poder graficar mejor lo dicho en el párrafo anterior, dejo 2 muestras de características obtenidas con LaTeX, imposibles de obtener con otros lenguajes (y con otros programas de DTP) que explican mejor a que me refiero cuando utilizo la expresión «alta calidad tipográfica».</p>
+<h3 id="botones-para-muestra">Botones para muestra</h3>
+<p>Para poder graficar mejor lo dicho en el párrafo anterior, dejo muestras de características obtenidas con LaTeX, imposibles de obtener con otros lenguajes (y con otros programas de DTP) que explican mejor a que me refiero cuando utilizo la expresión <strong>alta calidad tipográfica</strong>.</p>
 <h2 id="pequeña-radiografía-de-latex">Pequeña radiografía de LaTeX</h2>
 <p>LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensa en la generación de textos científicos. Fue escrito por <a href="https://es.wikipedia.org/wiki/Leslie_Lamport">Leslie Lamport</a> en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica <a href="https://es.wikipedia.org/wiki/TeX">TeX</a>, creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además es software libre bajo <a href="https://es.wikipedia.org/wiki/LaTeX_Project_Public_License">licencia LPPL</a>.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#66d9ef">\documentclass</span>{book}<span style="color:#75715e">% acá comienza el preámbulo
@@ -308,11 +308,17 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <li>Es muy rápido y potente <a href="https://gambas.sourceforge.net/en/main.html#">(Benchmarks)</a>.</li>
 </ol>
 <h2 id="algunas-aclaraciones-sobre-linux">Algunas aclaraciones sobre Linux</h2>
+<p>Por motivos que superan las expectativas de este artículo y sabiendo que todas las distribuciones de GNU-Linux tienen diferencias en las librerías gráficas, voy a mostrar cual es el equipo con el que desarrollo y trabajo a diario utilizando gbTeXpublisher, cualquier persona que este intentando utilizar la aplicación y tenga diferencias en la distribución de los elementos de la interfaz gráfica, me puede contactar indicando que distribución utiliza, con cuál librería gráfica y entorno de escritorio y veré de hacer pruebas de control.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/manjaro.png" alt=""></p>
+<h2 id="descarga-e-instalación-de-la-aplicación">Descarga e instalación de la aplicación</h2>
+<p>Por los mismos motivos que explique en un párrafo anterior, dejo la lista de programas que deben estar instalados para utlizar gbTeXpublisher sin problemas.</p>
+<ol>
+<li><a href="https://tug.org/texlive/">TeXlive</a> (yo tengo instalada la versión provista por la distribución)</li>
+<li><a href="https://pandoc.org/">Pandoc</a></li>
+</ol>
+<p>La descarga se realiza desde el repositorio del programa, dentro de cada carpeta que se corresponde con una distribución hay varios archivos&hellip;</p>
 <h2 id="comenzando-con-gbtexpublisher">Comenzando con gbTeXpublisher</h2>
 <p>Cuando se está editando un solo libro, se pueden tener ciertas libertades, pero cuando se tienen 7 o 9 libros de manera constante en el flujo de producción, la cosa cambia. El orden y el principio de <a href="https://es.wikipedia.org/wiki/No_te_repitas">DRY</a> se vuelve más que importante si queremos tener una sana optimización de los recursos. En gbTeXpublisher se van a encontar funciones predefinidas (rígidas) que aseguran comportamientos contínuos, estables y predecibles.</p>
-<h2 id="descarga-e-instalación-de-la-aplicación">Descarga e instalación de la aplicación</h2>
-<p>La descarga se realiza desde&hellip;</p>
 <p>Luego de instalar gbTeXpublisher encontraremos una carpeta oculta dentro del <code>home.user</code> (léase carpeta personal), donde se alojara la base de datos, el proceso de instalación copia una base de datos con un número determinado de entradas que sirven como ejemplo, esto vale para las notas y las referencias bibliográficas. En la figura a continuación lo resalto con una línea roja.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla11.png" alt=""></p>
 <p>El programa no trabaja <strong>desde</strong> el archivo de LaTeX, sino que lo hace <strong>con</strong> el archivo. Esto da plena y absoluta libertad de trabajar el texto con el editor que mejor le plazca al usuario. De ahí que su interfaz de incio pueda sorprender &ndash;ya que no dice nada&ndash; esto se observa mejor al notar que algunos menúes están deshabilitados y se activan una vez que se haya elegido un archivo con el cual trabajar. La imagen a continuación lo ilustra.</p>

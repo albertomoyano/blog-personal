@@ -73,9 +73,9 @@ Scolari[^3] se plantea si podremos leer un PDF dentro de 100 años, su análisis
 La elección de LaTeX como lenguaje de trabajo para el flujo de producción
 
 
-### 2 botones de muestra
+### Botones para muestra
 
-Para poder graficar mejor lo dicho en el párrafo anterior, dejo 2 muestras de características obtenidas con LaTeX, imposibles de obtener con otros lenguajes (y con otros programas de DTP) que explican mejor a que me refiero cuando utilizo la expresión «alta calidad tipográfica».
+Para poder graficar mejor lo dicho en el párrafo anterior, dejo muestras de características obtenidas con LaTeX, imposibles de obtener con otros lenguajes (y con otros programas de DTP) que explican mejor a que me refiero cuando utilizo la expresión **alta calidad tipográfica**.
 
 
 ## Pequeña radiografía de LaTeX
@@ -143,15 +143,22 @@ Y si bien los motivos en mi elección son varios, también pueden ser cuestionad
 
 ## Algunas aclaraciones sobre Linux
 
+Por motivos que superan las expectativas de este artículo y sabiendo que todas las distribuciones de GNU-Linux tienen diferencias en las librerías gráficas, voy a mostrar cual es el equipo con el que desarrollo y trabajo a diario utilizando gbTeXpublisher, cualquier persona que este intentando utilizar la aplicación y tenga diferencias en la distribución de los elementos de la interfaz gráfica, me puede contactar indicando que distribución utiliza, con cuál librería gráfica y entorno de escritorio y veré de hacer pruebas de control.
+
 ![](https://albertomoyano.github.io/blog-personal/images/manjaro.png)
+
+## Descarga e instalación de la aplicación
+
+Por los mismos motivos que explique en un párrafo anterior, dejo la lista de programas que deben estar instalados para utlizar gbTeXpublisher sin problemas.
+
+1. [TeXlive](https://tug.org/texlive/) (yo tengo instalada la versión provista por la distribución)
+2. [Pandoc](https://pandoc.org/)
+
+La descarga se realiza desde el repositorio del programa, dentro de cada carpeta que se corresponde con una distribución hay varios archivos...
 
 ## Comenzando con gbTeXpublisher
 
 Cuando se está editando un solo libro, se pueden tener ciertas libertades, pero cuando se tienen 7 o 9 libros de manera constante en el flujo de producción, la cosa cambia. El orden y el principio de [DRY](https://es.wikipedia.org/wiki/No_te_repitas) se vuelve más que importante si queremos tener una sana optimización de los recursos. En gbTeXpublisher se van a encontar funciones predefinidas (rígidas) que aseguran comportamientos contínuos, estables y predecibles.
-
-## Descarga e instalación de la aplicación
-
-La descarga se realiza desde...
 
 Luego de instalar gbTeXpublisher encontraremos una carpeta oculta dentro del `home.user` (léase carpeta personal), donde se alojara la base de datos, el proceso de instalación copia una base de datos con un número determinado de entradas que sirven como ejemplo, esto vale para las notas y las referencias bibliográficas. En la figura a continuación lo resalto con una línea roja.
 
