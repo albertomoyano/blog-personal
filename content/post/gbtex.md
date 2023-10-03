@@ -75,12 +75,29 @@ La elección de LaTeX como lenguaje de trabajo para el flujo de producción
 
 ### Botones para muestra
 
-Para poder graficar mejor lo dicho en el párrafo anterior, dejo muestras de características obtenidas con LaTeX, imposibles de obtener con otros lenguajes (y con otros programas de DTP) que explican mejor a que me refiero cuando utilizo la expresión **alta calidad tipográfica**.
+Para poder graficar mejor lo dicho en el párrafo anterior, dejo muestras de características obtenidas en mi trabajo diario con LaTeX, que son imposibles de obtener con otros lenguajes (y con otros programas de DTP) que explican mejor a que me refiero cuando utilizo la expresión **alta calidad tipográfica**.
 
+### Homeoarchy
+
+### Formateo automático ortotipográfico
+
+### Contadores separados
+
+### Posición de los objetos en la página
+
+
+Estos cuatro ejemplos son solo la punta del iceberg, puede sonar exagerado, pero se entiende mejor cuando se asimila a LaTeX como lo que es, un lenguaje de composición tipográfica, y **no** como un programa de armado.
 
 ## Pequeña radiografía de LaTeX
 
 LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensa en la generación de textos científicos. Fue escrito por [Leslie Lamport](https://es.wikipedia.org/wiki/Leslie_Lamport) en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica [TeX](https://es.wikipedia.org/wiki/TeX), creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además es software libre bajo [licencia LPPL](https://es.wikipedia.org/wiki/LaTeX_Project_Public_License).
+
+Los archivos de LaTeX presentan una primera división de dos partes:
+
+1. Preámbulo (documentclass)
+2. Documento (document)
+
+Podemos decir que los archivos son la suma del contenido en texto plano, más intrucciones y marcas, también en texto plano.
 
 {{< highlight latex >}}
 \documentclass{book}% acá comienza el preámbulo
@@ -94,9 +111,15 @@ LaTeX es un sistema de composición tipográfico, orientado a la creación de do
 \end{document}
 {{< /highlight >}}
 
-Ahora bien, veamos como se compone internamente la división primaria del área del documento.
+A su vez, la seguna parte (document), también tiene divisiones internas.
+
+1. Frontmatter
+2. Mainmatter
+3. Appendix
+4. Backmatter
 
 {{< highlight latex >}}
+
 ...
 
 \begin{document}% acá comienza en documento
@@ -118,6 +141,8 @@ Ahora bien, veamos como se compone internamente la división primaria del área 
 
 \end{document}
 {{< /highlight >}}
+
+Este artículo no es un curso de LaTeX, en la red hay a montones, pero con esta aclaración particular se va a entender como trabaja gbTeXpublisher.
 
 ## ¿Entonces?
 
@@ -164,7 +189,7 @@ Luego de instalar gbTeXpublisher encontraremos una carpeta oculta dentro del `ho
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla11.png)
 
-El programa no trabaja **desde** el archivo de LaTeX, sino que lo hace **con** el archivo. Esto da plena y absoluta libertad de trabajar el texto con el editor que mejor le plazca al usuario. De ahí que su interfaz de incio pueda sorprender --ya que no dice nada-- esto se observa mejor al notar que algunos menúes están deshabilitados y se activan una vez que se haya elegido un archivo con el cual trabajar. La imagen a continuación lo ilustra.
+El programa no trabaja **sobre** el archivo de LaTeX, sino que lo hace con una **copia**. Esto da plena y absoluta libertad de trabajar el texto con el editor que mejor le plazca al usuario. De ahí que su interfaz de incio pueda sorprender --ya que no dice nada-- esto se observa mejor al notar que algunos menúes están deshabilitados y se activan una vez que se haya elegido un archivo con el cual trabajar. La imagen a continuación lo ilustra.
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla01.png)
 
@@ -197,7 +222,7 @@ El formulario para manejar las referencias bibliográficas, por momentos dudo de
 
 Todas las entradas están basadas en [BibLaTeX](https://www.ctan.org/pkg/biblatex) que es una reimplementación completa de las funciones bibliográficas proporcionadas por LaTeX. El formato está completamente controlado por macros de LaTeX. BibLaTeX utiliza su propio analizador de datos llamado «biber» (escrito en [Perl](https://es.wikipedia.org/wiki/Perl)) para procesar los datos bibliográficos.
 
-Por _default_ gbTeXpublisher para el formato _book_ entrega un archivo configurado para la salida a PDF con el diseño autor-año desarrollado por Ivan Valbusa ([biblatex-philosophy](https://ctan.org/pkg/biblatex-philosophy)) y el estándar autor-año de bibLaTeX para el resto de las salidas, para el formato _article_ entrega un archivo con el diseño autor-año de [biblatex-APA](https://www.ctan.org/pkg/biblatex-apa) y, por supuesto, todas estas salidas son modificables.
+Por _default_ gbTeXpublisher para la clase _book_ entrega un archivo configurado para la salida a PDF con el diseño autor-año desarrollado por Ivan Valbusa ([biblatex-philosophy](https://ctan.org/pkg/biblatex-philosophy)) y el estándar autor-año de bibLaTeX para el resto de las salidas, para la clase _article_ entrega un archivo con el diseño autor-año de [biblatex-APA](https://www.ctan.org/pkg/biblatex-apa) y, por supuesto, todas estas salidas son modificables.
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla07.png)
 

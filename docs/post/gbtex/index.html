@@ -189,7 +189,7 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
                         </div>
                       </div>
                     </details-menu>
-                      2652 palabras
+                      2771 palabras
                     
 
                   </div>
@@ -257,9 +257,20 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <h2 id="la-elección-del-lenguaje">La elección del lenguaje</h2>
 <p>La elección de LaTeX como lenguaje de trabajo para el flujo de producción</p>
 <h3 id="botones-para-muestra">Botones para muestra</h3>
-<p>Para poder graficar mejor lo dicho en el párrafo anterior, dejo muestras de características obtenidas con LaTeX, imposibles de obtener con otros lenguajes (y con otros programas de DTP) que explican mejor a que me refiero cuando utilizo la expresión <strong>alta calidad tipográfica</strong>.</p>
+<p>Para poder graficar mejor lo dicho en el párrafo anterior, dejo muestras de características obtenidas en mi trabajo diario con LaTeX, que son imposibles de obtener con otros lenguajes (y con otros programas de DTP) que explican mejor a que me refiero cuando utilizo la expresión <strong>alta calidad tipográfica</strong>.</p>
+<h3 id="homeoarchy">Homeoarchy</h3>
+<h3 id="formateo-automático-ortotipográfico">Formateo automático ortotipográfico</h3>
+<h3 id="contadores-separados">Contadores separados</h3>
+<h3 id="posición-de-los-objetos-en-la-página">Posición de los objetos en la página</h3>
+<p>Estos cuatro ejemplos son solo la punta del iceberg, puede sonar exagerado, pero se entiende mejor cuando se asimila a LaTeX como lo que es, un lenguaje de composición tipográfica, y <strong>no</strong> como un programa de armado.</p>
 <h2 id="pequeña-radiografía-de-latex">Pequeña radiografía de LaTeX</h2>
 <p>LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensa en la generación de textos científicos. Fue escrito por <a href="https://es.wikipedia.org/wiki/Leslie_Lamport">Leslie Lamport</a> en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica <a href="https://es.wikipedia.org/wiki/TeX">TeX</a>, creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además es software libre bajo <a href="https://es.wikipedia.org/wiki/LaTeX_Project_Public_License">licencia LPPL</a>.</p>
+<p>Los archivos de LaTeX presentan una primera división de dos partes:</p>
+<ol>
+<li>Preámbulo (documentclass)</li>
+<li>Documento (document)</li>
+</ol>
+<p>Podemos decir que los archivos son la suma del contenido en texto plano, más intrucciones y marcas, también en texto plano.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#66d9ef">\documentclass</span>{book}<span style="color:#75715e">% acá comienza el preámbulo
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">% carga de paquetes y funciones
@@ -269,7 +280,13 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 </span></span><span style="display:flex;"><span><span style="color:#75715e">% contenido y funciones
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{document}</span></span></code></pre></div>
-<p>Ahora bien, veamos como se compone internamente la división primaria del área del documento.</p>
+<p>A su vez, la seguna parte (document), también tiene divisiones internas.</p>
+<ol>
+<li>Frontmatter</li>
+<li>Mainmatter</li>
+<li>Appendix</li>
+<li>Backmatter</li>
+</ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span>...
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{document}<span style="color:#75715e">% acá comienza en documento
@@ -290,6 +307,7 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 </span></span><span style="display:flex;"><span><span style="color:#75715e">% listado de índices
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{document}</span></span></code></pre></div>
+<p>Este artículo no es un curso de LaTeX, en la red hay a montones, pero con esta aclaración particular se va a entender como trabaja gbTeXpublisher.</p>
 <h2 id="entonces">¿Entonces?</h2>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/archivo.png" alt=""></p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/literada.png" alt=""></p>
@@ -321,7 +339,7 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <p>Cuando se está editando un solo libro, se pueden tener ciertas libertades, pero cuando se tienen 7 o 9 libros de manera constante en el flujo de producción, la cosa cambia. El orden y el principio de <a href="https://es.wikipedia.org/wiki/No_te_repitas">DRY</a> se vuelve más que importante si queremos tener una sana optimización de los recursos. En gbTeXpublisher se van a encontar funciones predefinidas (rígidas) que aseguran comportamientos contínuos, estables y predecibles.</p>
 <p>Luego de instalar gbTeXpublisher encontraremos una carpeta oculta dentro del <code>home.user</code> (léase carpeta personal), donde se alojara la base de datos, el proceso de instalación copia una base de datos con un número determinado de entradas que sirven como ejemplo, esto vale para las notas y las referencias bibliográficas. En la figura a continuación lo resalto con una línea roja.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla11.png" alt=""></p>
-<p>El programa no trabaja <strong>desde</strong> el archivo de LaTeX, sino que lo hace <strong>con</strong> el archivo. Esto da plena y absoluta libertad de trabajar el texto con el editor que mejor le plazca al usuario. De ahí que su interfaz de incio pueda sorprender &ndash;ya que no dice nada&ndash; esto se observa mejor al notar que algunos menúes están deshabilitados y se activan una vez que se haya elegido un archivo con el cual trabajar. La imagen a continuación lo ilustra.</p>
+<p>El programa no trabaja <strong>sobre</strong> el archivo de LaTeX, sino que lo hace con una <strong>copia</strong>. Esto da plena y absoluta libertad de trabajar el texto con el editor que mejor le plazca al usuario. De ahí que su interfaz de incio pueda sorprender &ndash;ya que no dice nada&ndash; esto se observa mejor al notar que algunos menúes están deshabilitados y se activan una vez que se haya elegido un archivo con el cual trabajar. La imagen a continuación lo ilustra.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla01.png" alt=""></p>
 <p>Una vez que hayamos seleccionado un archivo para trabajar, la pantalla puede parecerse a esta.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla02.png" alt=""></p>
@@ -337,7 +355,7 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla04.png" alt=""></p>
 <p>El formulario para manejar las referencias bibliográficas, por momentos dudo de si este formulario no debería ser una aplicación en sí misma, no por su manejo, sino por su base de datos, hoy el programa trabaja con <a href="https://es.wikipedia.org/wiki/SQLite">SQLite</a>, que para trabajar de manera individual, es lo mejor que conozco, pero si el trabajo se quisiera realizar en modo colaborativo (en red, abierta o cerrada), debería migrar a otro motor (analizo <a href="https://es.wikipedia.org/wiki/MariaDB">MaríaDB</a> como opción).</p>
 <p>Todas las entradas están basadas en <a href="https://www.ctan.org/pkg/biblatex">BibLaTeX</a> que es una reimplementación completa de las funciones bibliográficas proporcionadas por LaTeX. El formato está completamente controlado por macros de LaTeX. BibLaTeX utiliza su propio analizador de datos llamado «biber» (escrito en <a href="https://es.wikipedia.org/wiki/Perl">Perl</a>) para procesar los datos bibliográficos.</p>
-<p>Por <em>default</em> gbTeXpublisher para el formato <em>book</em> entrega un archivo configurado para la salida a PDF con el diseño autor-año desarrollado por Ivan Valbusa (<a href="https://ctan.org/pkg/biblatex-philosophy">biblatex-philosophy</a>) y el estándar autor-año de bibLaTeX para el resto de las salidas, para el formato <em>article</em> entrega un archivo con el diseño autor-año de <a href="https://www.ctan.org/pkg/biblatex-apa">biblatex-APA</a> y, por supuesto, todas estas salidas son modificables.</p>
+<p>Por <em>default</em> gbTeXpublisher para la clase <em>book</em> entrega un archivo configurado para la salida a PDF con el diseño autor-año desarrollado por Ivan Valbusa (<a href="https://ctan.org/pkg/biblatex-philosophy">biblatex-philosophy</a>) y el estándar autor-año de bibLaTeX para el resto de las salidas, para la clase <em>article</em> entrega un archivo con el diseño autor-año de <a href="https://www.ctan.org/pkg/biblatex-apa">biblatex-APA</a> y, por supuesto, todas estas salidas son modificables.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla07.png" alt=""></p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/b1.png" alt=""></p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/b2.png" alt=""></p>
