@@ -82,6 +82,8 @@ Para poder graficar mejor lo dicho en el párrafo anterior, dejo muestras de car
 
 ### Homeoarchy
 
+![](https://albertomoyano.github.io/blog-personal/images/home.png)
+
 ### Formateo automático ortotipográfico
 
 ### Contadores separados
