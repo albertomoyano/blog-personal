@@ -70,7 +70,10 @@ Scolari[^3] se plantea si podremos leer un PDF dentro de 100 años, su análisis
 
 ## La elección del lenguaje
 
-La elección de LaTeX como lenguaje de trabajo para el flujo de producción
+Conocí LaTeX en el año 1993, de la mano de Horacio Suárez, recién llegado de México venía de trabajar en una editorial orientada a las matemáticas, me lo mostro en una máquina corriendo [MS-DOS](https://es.wikipedia.org/wiki/MS-DOS) y ejecutando el editor [epsilon](https://lugaru.com/), me sorprendió mucho, pero no fue hasta 10 años después, cuando abandone la preprensa y la imprenta para dedicarme de lleno a la edición que le empecé a dar uso diario.
+
+En los últimos años estuve trabajando con [Markdown](https://es.wikipedia.org/wiki/Markdown) y [AsciiDoc](https://en.wikipedia.org/wiki/AsciiDoc) (con el intérprete [asciidoctor](https://asciidoctor.org/)), y aún hoy los sigo usando (los artículos de este blog lo escribo en markdown).
+
 
 
 ### Botones para muestra
