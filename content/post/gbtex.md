@@ -86,6 +86,22 @@ Para poder graficar mejor lo dicho en el párrafo anterior, dejo muestras de car
 
 ### Formateo automático ortotipográfico
 
+{{< highlight bibtex >}}
+@Book{Mazlish1995,
+  hyphenation  = {spanish},
+  author       = {Mazlish, Bruce},
+  date         = {1995},
+  keywords     = {listar},
+  location     = {Madrid},
+  publisher    = {Alianza Editorial},
+  title        = {La cuarta discontinuidad},
+  creationdate = {2023-08-20T14:07:47},
+  owner        = {alberto},
+}
+{{< /highlight >}}
+
+![](https://albertomoyano.github.io/blog-personal/images/mazlish.png)
+
 ### Contadores separados
 
 ### Posición de los objetos en la página
