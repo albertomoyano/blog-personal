@@ -78,7 +78,7 @@ En los últimos años estuve trabajando con [Markdown](https://es.wikipedia.org/
 
 ### Botones para muestra
 
-Para poder graficar mejor lo dicho en el párrafo anterior, dejo muestras de características obtenidas en mi trabajo diario con LaTeX, que son imposibles de obtener con otros lenguajes (y con otros programas de DTP) que explican mejor a que me refiero cuando utilizo la expresión **alta calidad tipográfica**.
+Para poder graficar mejor lo dicho en el párrafo anterior, dejo muestras de características obtenidas en mi trabajo diario con LaTeX, que son imposibles de obtener con otros lenguajes (y con programas de DTP) que explican mejor a que me refiero cuando utilizo la expresión **alta calidad tipográfica**.
 
 ### Homeoarchy
 
@@ -95,10 +95,10 @@ Para poder graficar mejor lo dicho en el párrafo anterior, dejo muestras de car
   location     = {Madrid},
   publisher    = {Alianza Editorial},
   title        = {La cuarta discontinuidad},
-  creationdate = {2023-08-20T14:07:47},
-  owner        = {alberto},
 }
 {{< /highlight >}}
+
+Y esta es la salida que se obtiene en el PDF.
 
 ![](https://albertomoyano.github.io/blog-personal/images/mazlish.png)
 
@@ -106,6 +106,7 @@ Para poder graficar mejor lo dicho en el párrafo anterior, dejo muestras de car
 
 ### Posición de los objetos en la página
 
+![](https://albertomoyano.github.io/blog-personal/images/objeto.png)
 
 Estos cuatro ejemplos son solo la punta del iceberg, puede sonar exagerado, pero se entiende mejor cuando se asimila a LaTeX como lo que es, un lenguaje de composición tipográfica, y **no** como un programa de armado.
 
