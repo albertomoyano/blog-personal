@@ -251,15 +251,47 @@ El segundo es el formulario de apuntes, su idea y desarrollo surgieron de manera
 
 ## Ahora bien, comenzamos con el trabajo
 
+Luego de seleccionar un archivo, si miramos la carpeta contenedora del proyecto, veremos que se han creado nuevos directorios:
+
+1. correcciones
+2. files
+3. media
+4. originales
+5. tapa
+
+Si los directorios **originales** y **media**, ya existian porque se hizo la conversión de `.docx` a `.tex` utilizando gbTeXpublisher, estos no se sobreescriben y se mantiene sin modificaciones su contenido.
+
 ![](https://albertomoyano.github.io/blog-personal/images/sample.png)
 
+Dentro del directorio **files** se agregaran los archivos mostrados en la imagen a continuación, estos son los diferentes preámbulos y archivos de configuración para las diferentes salidas, si cualquiera de estos archivos fuera modificado, no será reemplazado al volver (en un momento diferente) a cargar la aolicación, solo será agregado nuevamente aquél archivo que por error hubiera sido eliminado.
+
 ![](https://albertomoyano.github.io/blog-personal/images/sample2.png)
+
+Dentro de la ventana principal veremos cuatro solapas tabuladas:
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla03.png)
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla04.png)
 
-El formulario para manejar las referencias bibliográficas, por momentos dudo de si este formulario no debería ser una aplicación en sí misma, no por su manejo, sino por su base de datos, hoy el programa trabaja con [SQLite](https://es.wikipedia.org/wiki/SQLite), que para trabajar de manera individual, es lo mejor que conozco, pero si el trabajo se quisiera realizar en modo colaborativo (en red, abierta o cerrada), debería migrar a otro motor (analizo [MaríaDB](https://es.wikipedia.org/wiki/MariaDB) como opción).
+1. Terminal
+
+En la terminal se ven todas las salidas de los diferentes procesos, la terminal esta disponible para interacturar (con comandos) en caso de ser necesario.
+
+2. Configurar
+
+Desde aquí se accede a los archivos de configuración para la compilación (archivo build.lua y config*), se pueden editar, pero es solo una comodidad, los archivos también pueden ser editados por fuera.
+
+3. Directorio
+
+Se accede al directorio de trabajo para funciones mínimas sin necesidad de recurrir al manejador de archivos del SO.
+
+4. GitLab
+
+![](https://albertomoyano.github.io/blog-personal/images/pantalla05.png)
+
+## Acceso a nuevos menúes
+
+El formulario para manejar las referencias bibliográficas, el programa trabaja con [SQLite](https://es.wikipedia.org/wiki/SQLite), que para trabajar de manera individual, es lo mejor que conozco, pero si el trabajo se quisiera realizar en modo colaborativo (en red, abierta o cerrada), debería migrar a otro motor (analizo [MaríaDB](https://es.wikipedia.org/wiki/MariaDB) como opción).
 
 Todas las entradas están basadas en [BibLaTeX](https://www.ctan.org/pkg/biblatex) que es una reimplementación completa de las funciones bibliográficas proporcionadas por LaTeX. El formato está completamente controlado por macros de LaTeX. BibLaTeX utiliza su propio analizador de datos llamado «biber» (escrito en [Perl](https://es.wikipedia.org/wiki/Perl)) para procesar los datos bibliográficos.
 
@@ -289,7 +321,7 @@ Las siglas, glosarios y nomenclaturas se pueden dar de alta desde este formulari
 
 [GitLab](https://es.wikipedia.org/wiki/GitLab)
 
-![](https://albertomoyano.github.io/blog-personal/images/pantalla05.png)
+
 
 ## Git local y remoto como copia de seguridad temporal
 
