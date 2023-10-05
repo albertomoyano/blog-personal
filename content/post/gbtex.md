@@ -64,11 +64,25 @@ Cada salida tiene su propia lógica para su destino, subordinada a un solo patr�
 
 Furtado[^2] plantea que en una primera aproximación, las ediciones se diferencian entre ellas por la predominancia que tienen las actividades primarias en la transformación físico-técnica del contenido, esto implica que, desde el punto de vista de la edición, el *diseño estructural* goza de muchísimo valor.
 
-## El tiempo y la portabilidad de los contenidos
+## Algunos desarrollos que investigué
 
-Scolari[^3] se plantea si podremos leer un PDF dentro de 100 años, su análisis arranca de una premisa equivocada, es equivalente a pensar que alguien en la década del sesenta se preguntara lo mismo sobre el *cassette*. Estos errores de análisis son comunes de encontrar y obedecen a que están atrapados (o enamorados) de las herramientas que utilizan. En 1838 Samuel Morse realizó la invención que hoy nos sigue mostrando cuál es el camino que se debe seguir en las tecnologías digitales.
+1. [Pecas](https://programando.li/bros/)
 
-## La elección del lenguaje
+El proyecto está archivado, su desarrollador (Ramiro, alias [perro tuerto](https://git.cuates.net/perro)) en una comunicación telefónica que tuvimos hace unos años, me dijo que el proyecto tiene errores de diseño que no le permiten evolucionar, pero tal como está, si lo que se prentende es solo obtener una salida a ePub desde markdown, el software no tiene fallas, y doy fe, lo utilice para hacer ejercicios y funciona, pero tiene tanta solides como limitaciones.
+
+2. [Softcover](https://www.softcover.io/start)
+
+Es básicamente un sistema de publicación, posee salida a HTML, ePub y PDF --y funciona muy bien-- lo utilicé durante un tiempo, para textos simples se puede escribir directamente en markdown (el sistema hace la conversión a LaTeX) o en su defecto en LaTeX. Está escrito en lenguaje Ruby y algunas partes del sistema son muy cerradas (en su diseño) lo cual hace muy cuesta arriba pretender hacer modificaciones al código. Pero si la matriz de producción editorial está definida y es simple, es una buena opción para trabajar.
+
+4. [Transpect](https://transpect.github.io/)
+
+En el sitio de Transpect se explica muy simple:
+
+> Transspect fue diseñado para proporcionar módulos genéricos y estables para tareas comunes de conversión y verificación. Para abordar datos complejos y diversos, transspect ofrece una configuración en cascada para anular reglas específicas de transformación y verificación. Cada componente dentro del marco es de código abierto y utiliza tecnologías estándar como XSLT 2.0 y XProc.
+
+Este proyecto es, lo más de lo más (utiliza TeX y XML como base), pero cuando intenté ponerlo en marcha me di cuenta de que solo es viable en grupos editoriales con altos volúmenes de producción, ya que su implementación no es simple. Solo alcanza con ver los clientes de [le-tex](https://www.le-tex.de/en/customers.html), que son los desarrolladores, para entender esto.
+
+## Todos los caminos conducen a LaTeX
 
 Conocí LaTeX en el año 1993, de la mano de Horacio Suárez, recién llegado de México venía de trabajar en una editorial orientada a las matemáticas, me lo mostro en una máquina corriendo [MS-DOS](https://es.wikipedia.org/wiki/MS-DOS) y ejecutando el editor [epsilon](https://lugaru.com/), me sorprendió mucho, pero no fue hasta 10 años después, cuando abandone la preprensa y la imprenta para dedicarme de lleno a la edición que le empecé a dar uso diario.
 
@@ -102,11 +116,11 @@ Y esta es la salida que se obtiene en el PDF.
 
 ![](https://albertomoyano.github.io/blog-personal/images/mazlish.png)
 
-### Contadores separados
-
 ### Posición de los objetos en la página
 
 ![](https://albertomoyano.github.io/blog-personal/images/objeto.png)
+
+### Contadores separados
 
 Estos cuatro ejemplos son solo la punta del iceberg, puede sonar exagerado, pero se entiende mejor cuando se asimila a LaTeX como lo que es, un lenguaje de composición tipográfica, y **no** como un programa de armado.
 
@@ -229,12 +243,11 @@ El segundo es el formulario de apuntes, su idea y desarrollo surgieron de manera
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla08.png)
 
-## A trabajar
+## Ahora bien, comenzamos con el trabajo
 
-![](https://albertomoyano.github.io/blog-personal/images/pantalla12.png)
+![](https://albertomoyano.github.io/blog-personal/images/sample.png)
 
-![](https://albertomoyano.github.io/blog-personal/images/pantalla13.png)
-
+![](https://albertomoyano.github.io/blog-personal/images/sample2.png)
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla03.png)
 
@@ -306,7 +319,5 @@ Matthew Carter en una exposición en el 2014 lo planteó en términos muy simple
 [^1]: De Bono, Edward (1967). [*New Think: The Use of Lateral thinking*](https://books.google.com.ar/books/about/El_pensamiento_lateral_pr%C3%A1ctico.html?id=ir_PDOmfHBwC&printsec=frontcover&source=kp_read_button&hl=es-419&redir_esc=y#v=onepage&q&f=false), Avon Books.
 
 [^2]: Furtado, José Afonso (2014). [*La edición de libros y la gestión estratégica*](https://www.eduvim.com.ar/libro/9789876991735-la-edicion-de-libros-y-la-gestion-estrategica), Córdoba: EDUVIM.
-
-[^3]: Scolari, Carlos (2010) [*¿Podremos leer un PDF dentro de 100 años?*](https://hipermediaciones.com/2010/11/11/%c2%bfpodremos-leer-un-pdf-dentro-de-100-anos/).
 
 [^cita]: Puede ser cualquier valor de la estructura: título, referencia, fórmula, etcétera.

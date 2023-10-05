@@ -189,7 +189,7 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
                         </div>
                       </div>
                     </details-menu>
-                      2894 palabras
+                      3088 palabras
                     
 
                   </div>
@@ -252,9 +252,24 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 </ol>
 <p>Cada salida tiene su propia lógica para su destino, subordinada a un solo patrón de diseño estructural.</p>
 <p>Furtado<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> plantea que en una primera aproximación, las ediciones se diferencian entre ellas por la predominancia que tienen las actividades primarias en la transformación físico-técnica del contenido, esto implica que, desde el punto de vista de la edición, el <em>diseño estructural</em> goza de muchísimo valor.</p>
-<h2 id="el-tiempo-y-la-portabilidad-de-los-contenidos">El tiempo y la portabilidad de los contenidos</h2>
-<p>Scolari<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> se plantea si podremos leer un PDF dentro de 100 años, su análisis arranca de una premisa equivocada, es equivalente a pensar que alguien en la década del sesenta se preguntara lo mismo sobre el <em>cassette</em>. Estos errores de análisis son comunes de encontrar y obedecen a que están atrapados (o enamorados) de las herramientas que utilizan. En 1838 Samuel Morse realizó la invención que hoy nos sigue mostrando cuál es el camino que se debe seguir en las tecnologías digitales.</p>
-<h2 id="la-elección-del-lenguaje">La elección del lenguaje</h2>
+<h2 id="algunos-desarrollos-que-investigué">Algunos desarrollos que investigué</h2>
+<ol>
+<li><a href="https://programando.li/bros/">Pecas</a></li>
+</ol>
+<p>El proyecto está archivado, su desarrollador (Ramiro, alias <a href="https://git.cuates.net/perro">perro tuerto</a>) en una comunicación telefónica que tuvimos hace unos años, me dijo que el proyecto tiene errores de diseño que no le permiten evolucionar, pero tal como está, si lo que se prentende es solo obtener una salida a ePub desde markdown, el software no tiene fallas, y doy fe, lo utilice para hacer ejercicios y funciona, pero tiene tanta solides como limitaciones.</p>
+<ol start="2">
+<li><a href="https://www.softcover.io/start">Softcover</a></li>
+</ol>
+<p>Es básicamente un sistema de publicación, posee salida a HTML, ePub y PDF &ndash;y funciona muy bien&ndash; lo utilicé durante un tiempo, para textos simples se puede escribir directamente en markdown (el sistema hace la conversión a LaTeX) o en su defecto en LaTeX. Está escrito en lenguaje Ruby y algunas partes del sistema son muy cerradas (en su diseño) lo cual hace muy cuesta arriba pretender hacer modificaciones al código. Pero si la matriz de producción editorial está definida y es simple, es una buena opción para trabajar.</p>
+<ol start="4">
+<li><a href="https://transpect.github.io/">Transpect</a></li>
+</ol>
+<p>En el sitio de Transpect se explica muy simple:</p>
+<blockquote>
+<p>Transspect fue diseñado para proporcionar módulos genéricos y estables para tareas comunes de conversión y verificación. Para abordar datos complejos y diversos, transspect ofrece una configuración en cascada para anular reglas específicas de transformación y verificación. Cada componente dentro del marco es de código abierto y utiliza tecnologías estándar como XSLT 2.0 y XProc.</p>
+</blockquote>
+<p>Este proyecto es, lo más de lo más (utiliza TeX y XML como base), pero cuando intenté ponerlo en marcha me di cuenta de que solo es viable en grupos editoriales con altos volúmenes de producción, ya que su implementación no es simple. Solo alcanza con ver los clientes de <a href="https://www.le-tex.de/en/customers.html">le-tex</a>, que son los desarrolladores, para entender esto.</p>
+<h2 id="todos-los-caminos-conducen-a-latex">Todos los caminos conducen a LaTeX</h2>
 <p>Conocí LaTeX en el año 1993, de la mano de Horacio Suárez, recién llegado de México venía de trabajar en una editorial orientada a las matemáticas, me lo mostro en una máquina corriendo <a href="https://es.wikipedia.org/wiki/MS-DOS">MS-DOS</a> y ejecutando el editor <a href="https://lugaru.com/">epsilon</a>, me sorprendió mucho, pero no fue hasta 10 años después, cuando abandone la preprensa y la imprenta para dedicarme de lleno a la edición que le empecé a dar uso diario.</p>
 <p>En los últimos años estuve trabajando con <a href="https://es.wikipedia.org/wiki/Markdown">Markdown</a> y <a href="https://en.wikipedia.org/wiki/AsciiDoc">AsciiDoc</a> (con el intérprete <a href="https://asciidoctor.org/">asciidoctor</a>), y aún hoy los sigo usando (los artículos de este blog lo escribo en markdown).</p>
 <h3 id="botones-para-muestra">Botones para muestra</h3>
@@ -273,9 +288,9 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 </span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
 <p>Y esta es la salida que se obtiene en el PDF.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/mazlish.png" alt=""></p>
-<h3 id="contadores-separados">Contadores separados</h3>
 <h3 id="posición-de-los-objetos-en-la-página">Posición de los objetos en la página</h3>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/objeto.png" alt=""></p>
+<h3 id="contadores-separados">Contadores separados</h3>
 <p>Estos cuatro ejemplos son solo la punta del iceberg, puede sonar exagerado, pero se entiende mejor cuando se asimila a LaTeX como lo que es, un lenguaje de composición tipográfica, y <strong>no</strong> como un programa de armado.</p>
 <h2 id="pequeña-radiografía-de-latex">Pequeña radiografía de LaTeX</h2>
 <p>LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensa en la generación de textos científicos. Fue escrito por <a href="https://es.wikipedia.org/wiki/Leslie_Lamport">Leslie Lamport</a> en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica <a href="https://es.wikipedia.org/wiki/TeX">TeX</a>, creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además es software libre bajo <a href="https://es.wikipedia.org/wiki/LaTeX_Project_Public_License">licencia LPPL</a>.</p>
@@ -362,9 +377,9 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla06.png" alt=""></p>
 <p>El segundo es el formulario de apuntes, su idea y desarrollo surgieron de manera natural. Antes de gbTeXpublisher, a medida que iba trabajando tomaba apuntes sobre el proceso, ya sea consultas que debía hacer, buscar en otros archivos ese pedazo de código que alguna vez use o simplemente apuntes de ayuda memoria temporal, todo eso es lo que se vuelca en este formulario, el programa almacena toda la información en la base de datos.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla08.png" alt=""></p>
-<h2 id="a-trabajar">A trabajar</h2>
-<p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla12.png" alt=""></p>
-<p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla13.png" alt=""></p>
+<h2 id="ahora-bien-comenzamos-con-el-trabajo">Ahora bien, comenzamos con el trabajo</h2>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/sample.png" alt=""></p>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/sample2.png" alt=""></p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla03.png" alt=""></p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla04.png" alt=""></p>
 <p>El formulario para manejar las referencias bibliográficas, por momentos dudo de si este formulario no debería ser una aplicación en sí misma, no por su manejo, sino por su base de datos, hoy el programa trabaja con <a href="https://es.wikipedia.org/wiki/SQLite">SQLite</a>, que para trabajar de manera individual, es lo mejor que conozco, pero si el trabajo se quisiera realizar en modo colaborativo (en red, abierta o cerrada), debería migrar a otro motor (analizo <a href="https://es.wikipedia.org/wiki/MariaDB">MaríaDB</a> como opción).</p>
@@ -415,9 +430,6 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 </li>
 <li id="fn:3">
 <p>Furtado, José Afonso (2014). <a href="https://www.eduvim.com.ar/libro/9789876991735-la-edicion-de-libros-y-la-gestion-estrategica"><em>La edición de libros y la gestión estratégica</em></a>, Córdoba: EDUVIM.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:4">
-<p>Scolari, Carlos (2010) <a href="https://hipermediaciones.com/2010/11/11/%c2%bfpodremos-leer-un-pdf-dentro-de-100-anos/"><em>¿Podremos leer un PDF dentro de 100 años?</em></a>.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div></article>
