@@ -258,11 +258,12 @@ El segundo es el formulario de apuntes, su idea y desarrollo surgieron de manera
 
 Luego de seleccionar un archivo, si miramos la carpeta contenedora del proyecto, veremos que se han creado nuevos directorios:
 
-1. correcciones
-2. files
-3. media
-4. originales
-5. tapa
+1. catalogo
+2. correcciones
+3. files
+4. media
+5. originales
+6. tapa
 
 Si los directorios **originales** y **media**, ya existian porque se hizo la conversión de `.docx` a `.tex` utilizando gbTeXpublisher, estos no se sobreescriben y se mantiene sin modificaciones su contenido.
 
@@ -294,7 +295,7 @@ Se accede al directorio de trabajo para funciones mínimas sin necesidad de recu
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla05.png)
 
-## Acceso a nuevos menúes
+## Referencias bibliográficas
 
 El formulario para manejar las referencias bibliográficas, el programa trabaja con [SQLite](https://es.wikipedia.org/wiki/SQLite), que para trabajar de manera individual, es lo mejor que conozco, pero si el trabajo se quisiera realizar en modo colaborativo (en red, abierta o cerrada), debería migrar a otro motor (analizo [MaríaDB](https://es.wikipedia.org/wiki/MariaDB) como opción).
 
@@ -304,31 +305,19 @@ Por _default_ gbTeXpublisher para la clase _book_ entrega un archivo configurado
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla07.png)
 
-![](https://albertomoyano.github.io/blog-personal/images/b1.png)
+## Metadatos
 
-![](https://albertomoyano.github.io/blog-personal/images/b2.png)
+![](https://albertomoyano.github.io/blog-personal/images/metadatos.png)
 
-![](https://albertomoyano.github.io/blog-personal/images/b3.png)
+## Siglas y glosarios
 
-![](https://albertomoyano.github.io/blog-personal/images/b4.png)
-
-![](https://albertomoyano.github.io/blog-personal/images/b5.png)
-
-![](https://albertomoyano.github.io/blog-personal/images/b6.png)
-
-![](https://albertomoyano.github.io/blog-personal/images/b7.png)
-
-![](https://albertomoyano.github.io/blog-personal/images/b8.png)
+![](https://albertomoyano.github.io/blog-personal/images/glosarios.png)
 
 Las siglas, glosarios y nomenclaturas se pueden dar de alta desde este formulario, lo que implica que quedan registrados en la base de datos, o se pueden agregar directamente en el archivo `.tex`.
 
-## Sacando provecho de GitLab
+## Git local y remoto como copia de seguridad temporal
 
 [GitLab](https://es.wikipedia.org/wiki/GitLab)
-
-
-
-## Git local y remoto como copia de seguridad temporal
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla14.png)
 
