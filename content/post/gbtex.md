@@ -13,25 +13,25 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 
 <!--more-->
 
-gbTeXpublisher es una aplicación de escritorio que permite gestionar los procesos de producción editorial de manera fácil y con pocos conocimientos, me gusta pensar en esta aplicación como un facilitador, ya que todo lo que se puede hacer **con ella**, también se puede hacer **sin ella**, la diferencia radica en la facilidad que otorga su interfaz.
+gbTeXpublisher es una aplicación de escritorio que permite gestionar los procesos de producción editorial de manera fácil, me gusta pensar en esta aplicación como un facilitador, ya que todo lo que se puede hacer **con** gbTeXpublisher, también se puede hacer **sin** gbTeXpublisher, la diferencia radica en la facilidad que otorga su interfaz.
 
-gbTeXpublisher es también el resultado del enorme trabajo de muchas personas, quiero hacer una mención especial para [Donald Knuth](https://es.wikipedia.org/wiki/Donald_Knuth), [Benoît Minisini](https://en.wikipedia.org/wiki/Beno%C3%AEt_Minisini) y los foros de [CervanTeX](http://cervantex.es/) y [Gambas](https://es.wikipedia.org/wiki/Gambas), dejo para lo último a [Michal Hoftich](https://www.kodymirus.cz/), el aporte de su desarrollo a sido clave en el rumbo que tomaron mis decisiones de producción.
+gbTeXpublisher es también el resultado del enorme trabajo de muchas personas, quisiera hacer una mención de agradecimiento especial para [Donald Knuth](https://es.wikipedia.org/wiki/Donald_Knuth), [Benoît Minisini](https://en.wikipedia.org/wiki/Beno%C3%AEt_Minisini) y los foros de [CervanTeX](http://cervantex.es/) y [Gambas](https://es.wikipedia.org/wiki/Gambas), dejo para lo último a [Michal Hoftich](https://www.kodymirus.cz/), el aporte de su desarrollo a sido clave en el rumbo que tomaron mis decisiones de producción.
 
-gbTeXpublisher posee [licencia GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+gbTeXpublisher posee [licencia GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html), y por supuesto el acceso al código del repositorio es público.
 
-Este artículo es un intento de presentación formal y me parece oportuno comenzar con una introducción teórica sobre los modelos de producción editorial al día de hoy.
+Este artículo es un intento de presentación formal (aunque todavía el desarrollo se encuentre en esta _beta_) y me parece oportuno comenzar con una introducción teórica sobre los modelos de producción editorial al día de hoy.
 
-En este sentido, es posible observar que la edición es íntegramente digital desde comienzo de los noventa, ya que los diferentes intervinientes del proceso editorial, han terminado incorporando a los sistemas informáticos en su uso diario, ya sea para escribir o producir editorialmente, también podemos asegurar que las imprentas (por dar un ejemplo del proceso) hoy solo reciben trabajos en formato digital.
+Es posible observar que la edición es íntegramente digital desde comienzo de los noventa, ya que los diferentes intervinientes en el proceso editorial, han terminado incorporando a los sistemas informáticos en su uso diario, ya sea para escribir o producción editorial, también podemos asegurar que las imprentas (por dar un ejemplo del proceso) hoy solo reciben trabajos en formato digital.
 
-Sin embargo, se puede observar que la tradición editorial no ha podido --o sabido-- captar que este cambio en la forma de producir no refiere solo al hecho de utilizar nuevas técnicas, herramientas o dispositivos, sino también, a la pérdida de los fundamentos básicos que existen en el proceso de edición.
+Sin embargo, se puede observar que la tradición editorial no ha podido --o sabido-- captar que este cambio en la forma de producir no refiere solo al hecho de utilizar nuevas técnicas, herramientas o dispositivos, sino también, a la pérdida de parte de los fundamentos básicos que existen en el proceso de edición.
 
-La idea que propongo consiste en trabajar sobre un modelo de edición estandarizada, automatizada, multiformato y multisoporte (y que no atenta contra el diseño), conocida como **edición ramificada**. Para lograr esto es necesario evitar cualquier tipo de enfoque [WYSIWYG](https://es.wikipedia.org/wiki/WYSIWYG) para dar lugar a un enfoque [WYSIWYM](https://es.wikipedia.org/wiki/WYSIWYM).
+La idea que propongo consiste en trabajar sobre un modelo de edición estandarizada, automatizada, multiformato y multisoporte (y que no atenta contra el diseño), conocida como **edición ramificada**. Para lograr esto es necesario evitar cualquier tipo de enfoque [WYSIWYG](https://es.wikipedia.org/wiki/WYSIWYG).
 
-[Brian Kernighan](https://es.wikipedia.org/wiki/Brian_Kernighan) dijo alguna vez que el problema con el WYSIWYG (*lo que ves es lo que obtienes*) es que en realidad *lo que ves es **TODO** lo que obtienes*.  Las interfaces gráficas son excelentes para muchas cosas y yo las utilizo de manera constante. Pero también uso la consola con un *Shell* cuando necesito elasticidad, ya que es mucho más conveniente para algunas tareas, ahí entra el [WYSIWYM](https://es.wikipedia.org/wiki/WYSIWYM).
+[Brian Kernighan](https://es.wikipedia.org/wiki/Brian_Kernighan) dijo alguna vez que el problema con el WYSIWYG (*lo que ves es lo que obtienes*) es que en realidad _lo que ves es **TODO** lo que obtienes_. Las interfaces gráficas son excelentes para muchas cosas, yo las utilizo de manera constante, tampoco escapo a ellas. Pero también uso la consola con un _Shell_ cuando necesito elasticidad, ya que es mucho mas práctica y potente para algunas tareas.
 
 ## Edición cíclica
 
-Podemos observar en la figura a continuación que la edición cíclica se concentra en la posibilidad de producir al mismo tiempo para varios soportes de salida (un inicio A, deriva en un destino B, C, etc.), tratando de conservar la idea de que la publicación (en nuestro caso un libro) tiene un solo camino a seguir. Este método de trabajo está arraigado en la idea de que el *software* de alguna multinacional haga el trabajo milagroso de hacerlo posible, otorgándonos tranquilidad al concebir la conversión a diferentes formatos. Solo cuando se toma conciencia *real* de la pérdida en la calidad técnica y editorial, se hace patente que la edición cíclica no es el método más óptimo para una producción multiformato y multisoporte.
+Podemos observar en la figura a continuación que la edición cíclica se concentra en la posibilidad de producir al mismo tiempo para varios soportes de salida (un inicio A, deriva en un destino B, C, etc.), tratando de conservar la idea de que la publicación (en nuestro caso un libro) tiene un solo camino a seguir. Este método de trabajo está arraigado en la idea de que el *software* de alguna multinacional hará el trabajo milagroso de hacerlo posible, otorgándonos tranquilidad al concebir la conversión a diferentes formatos. Solo cuando se toma conciencia *real* de la pérdida que tenemos en la calidad técnica y editorial, se hace patente que la edición cíclica no es un método óptimo para la producción multiformato y multisoporte.
 
 ![](https://albertomoyano.github.io/blog-personal/images/ciclos.png)
 
@@ -41,17 +41,17 @@ Pero es entendible que esto haya pasado, si observamos como era el modelo de pro
 
 ## Edición ramificada
 
-Cambiemos la perspectiva. ¿Si en lugar de concentrarnos en los diferentes formatos finales, realizamos un ejercicio de pensamiento lateral?[^1] La idea es simple: **no nos concentremos en los formatos de salida, sino en los caminos que conducen a ellos**. La conclusión se hace evidente: a múltiples formatos, múltiples caminos.
+Cambiemos la perspectiva. ¿Si en lugar de concentrarnos en los diferentes formatos finales, realizamos un ejercicio de pensamiento lateral?[^1] La idea es simple: **no nos concentremos en los formatos de salida, sino en los caminos que conducen a ellos**. La conclusión se hace evidente: a múltiples caminos, múltiples formatos.
 
-Para realizar este modelo de trabajo se utiliza un lenguaje de marcas, es la mejor forma de codificar un documento, ya que se pueden incorporar las marcas que contienen las indicaciones adicionales acerca de la estructura y el diseño necesarios para la representación del texto en la salida deseada.
+Para realizar este modelo de trabajo se utiliza un lenguaje de marcas, es la mejor forma de etiquetar un documento, ya que se pueden incorporar las marcas que contienen las indicaciones adicionales acerca de la estructura y el diseño necesarios para la representación del texto en la salida buscada.
 
-La figura a continuación nos muestra un posible modelo de edición ramificada, donde no existe una secuencia de A con B, sino un inicio de (A) con diversos caminos (B, C, D, etc.), algunos pueden frenar su andar (llegar a su destino final), otros se pueden desprender y convertirse en el inicio de otros nuevos caminos.
+La figura a continuación nos muestra un modelo (de todos los posibles) de edición ramificada, donde no existe una secuencia de A con B, sino un inicio de (A) con diversos caminos (B, C, D, etc.), algunos pueden frenar su andar (llegar a su destino final), otros se pueden desprender y convertirse en el inicio de otros nuevos caminos.
 
 ![](https://albertomoyano.github.io/blog-personal/images/completo.png)
 
 Este es un posible camino, que tiene su base en el lenguaje de marcas [Markdown](https://es.wikipedia.org/wiki/Markdown), pero también existen otros lenguajes como [asciidoc](https://asciidoc-py.github.io/index.html), [Org Mode](https://orgmode.org/) y por supuesto LaTeX.
 
-La principal consigna de este método es ir de lo simple a lo complejo. Cada formato de salida tiene sus propias particularidades. Para el PDF de imprenta se requieren ajustes por cuestiones ortotipográficas y de diseño; en el ePub a veces es necesario ordenar figuras o cuadros para una correcta visualización, en una lectura *on line* se puede sacar provecho de la visualización interactiva y así un largo etcétera. Por consiguiente, lo que se hace imperioso es **evitar la herencia de características**, que es el principal problema que tiene la metodología cíclica, a diferencia de esta, la edición ramificada se inicia con un documento simple de [texto plano](https://es.wikipedia.org/wiki/Archivo_de_texto) que **contiene solo las marcas** de los elementos estructurales y de diseño, para luego con ajustes automatizados según los diferentes destinos se pueda obtener una salida sin errores.
+La principal consigna de este método es ir de lo simple a lo complejo. Cada formato de salida tiene sus propias necesidades particulares. Para el PDF de imprenta se requieren ajustes por cuestiones ortotipográficas y de diseño; en el ePub puede hacerse necesario configurar de otra manera las figuras o cuadros para una correcta visualización, en una lectura _on line_ se puede sacar provecho de la visualización interactiva y así un largo etcétera. Por consiguiente, lo que se hace imperioso es **evitar la herencia de características**, que es el principal problema que conlleva la metodología cíclica, a diferencia de esta, la edición ramificada se inicia con un documento simple de [texto plano](https://es.wikipedia.org/wiki/Archivo_de_texto) que **contiene solo las marcas** de los elementos estructurales (que a su vez pueden contener el diseño), para luego con ajustes automatizados obtener cada salida y que estas no tengan errores.
 
 Ejemplo conceptual de la lógica a seguir, supongamos que tengo una marca de cita:[^cita]
 
@@ -86,15 +86,13 @@ Este proyecto es, lo más de lo más (utiliza TeX y XML como base), pero cuando 
 
 Un ecosistema en si mismo...
 
-Luego de varios intentos me dí por vencido, esta [imagen](https://i.pinimg.com/736x/11/01/3c/11013c0024bd466791a8b0489340d3d7.jpg) de _El Eternauta_, se me vino a la mente.
+Luego de varios intentos me dí por vencido, esta [imagen](https://i.pinimg.com/736x/11/01/3c/11013c0024bd466791a8b0489340d3d7.jpg) de _El Eternauta_, se me vino a la mente cuando escribía este artículo.
 
 ## Todos los caminos conducen a LaTeX
 
-Conocí LaTeX en el año 1993, de la mano de Horacio Suárez, recién llegado de México venía de trabajar en una editorial orientada a las matemáticas, me lo mostro en una máquina corriendo [MS-DOS](https://es.wikipedia.org/wiki/MS-DOS) y ejecutando el editor [epsilon](https://lugaru.com/), me sorprendió mucho, pero no fue hasta 10 años después, cuando abandone la preprensa y la imprenta para dedicarme de lleno a la edición que le empecé a dar uso diario.
+Conocí LaTeX en el año 1993, de la mano de Horacio Suárez, recién llegado de México venía de trabajar en una editorial orientada a las matemáticas, me lo mostro en una máquina corriendo [MS-DOS](https://es.wikipedia.org/wiki/MS-DOS) y ejecutando el editor [epsilon](https://lugaru.com/), me sorprendió mucho, pero no fue hasta 10 años después, cuando abandone la preprensa y la imprenta para dedicarme de lleno a la edición que le empecé a dar un uso intenso.
 
 En los últimos años estuve trabajando con [Markdown](https://es.wikipedia.org/wiki/Markdown) y [AsciiDoc](https://en.wikipedia.org/wiki/AsciiDoc) (con el intérprete [asciidoctor](https://asciidoctor.org/)), y aún hoy los sigo usando (los artículos de este blog lo escribo en markdown).
-
-
 
 ### Botones para muestra
 
@@ -128,11 +126,11 @@ Y esta es la salida que se obtiene en el PDF.
 
 ### Contadores separados
 
-Estos cuatro ejemplos son solo la punta del iceberg, puede sonar exagerado, pero se entiende mejor cuando se asimila a LaTeX como lo que es, un lenguaje de composición tipográfica, y **no** como un programa de armado.
+Estos cuatro ejemplos son solo la punta del iceberg, puede sonar exagerado, pero se entiende mejor cuando se asimila a LaTeX como lo que es, _un lenguaje de programación para la composición tipográfica_, y **no** como un programa de armado.
 
 ## Pequeña radiografía de LaTeX
 
-LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensa en la generación de textos científicos. Fue escrito por [Leslie Lamport](https://es.wikipedia.org/wiki/Leslie_Lamport) en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica [TeX](https://es.wikipedia.org/wiki/TeX), creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además es software libre bajo [licencia LPPL](https://es.wikipedia.org/wiki/LaTeX_Project_Public_License).
+LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensiva en la generación de textos científicos. Fue escrito por [Leslie Lamport](https://es.wikipedia.org/wiki/Leslie_Lamport) en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica [TeX](https://es.wikipedia.org/wiki/TeX), creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además es software libre bajo [licencia LPPL](https://es.wikipedia.org/wiki/LaTeX_Project_Public_License).
 
 Los archivos de LaTeX presentan una primera división de dos partes:
 
@@ -153,7 +151,7 @@ Podemos decir que los archivos son la suma del contenido en texto plano, más in
 \end{document}
 {{< /highlight >}}
 
-A su vez, la seguna parte (document), también tiene divisiones internas.
+A su vez, la segunda parte (document), también tiene divisiones internas.
 
 1. Frontmatter
 2. Mainmatter
@@ -190,11 +188,13 @@ Este artículo no es un curso de LaTeX, en la red hay a montones, pero con esta 
 
 ![](https://albertomoyano.github.io/blog-personal/images/archivo.png)
 
+La figura a continuación muestra un resumen de cómo es el flujo de trabajo, es importante resaltar la posibilidad que existe de recuperar cualquier trabajo antiguo, indistintamente del formato que tenga.
+
 ![](https://albertomoyano.github.io/blog-personal/images/literada.png)
 
 ## Gambas
 
-No soy programador, me identifico plenamente como editor con una fuerte formación en artes gráficas (tuve taller de preprensa e imprenta muchos años), así que mis conocimientos son en base a mucha lectura y práctica. Estuve durante mucho tiempo lidiando con [Python](https://es.wikipedia.org/wiki/Python), Objet Pascal [(Lazarus)](https://es.wikipedia.org/wiki/Lazarus_(entorno_de_desarrollo)) y algo de [Ruby](https://es.wikipedia.org/wiki/Ruby), y reconozco ventajas en todos estos lenguajes, pero mi reflexión en la búsqueda de una solución informática consideró el balance entre, calidad, desempleño, facilidad y productividad, el resultado me llevo a encarar gbTeXpublisher con [Gambas](https://gambas.sourceforge.net/en/main.html).
+No soy programador, me identifico plenamente como editor con una fuerte formación en artes gráficas (tuve taller de preprensa e imprenta durante muchos años), así que mis conocimientos son en base a mucha lectura y práctica. Estuve durante mucho tiempo lidiando con [Python](https://es.wikipedia.org/wiki/Python), Objet Pascal [(Lazarus)](https://es.wikipedia.org/wiki/Lazarus_(entorno_de_desarrollo)) y algo de [Ruby](https://es.wikipedia.org/wiki/Ruby), y reconozco ventajas en todos estos lenguajes, pero mi reflexión en la búsqueda de una solución informática consideró primordialmente el balance entre: calidad, desempeño, facilidad de uso y productividad, el resultado me llevo a encarar gbTeXpublisher con [Gambas](https://gambas.sourceforge.net/en/main.html).
 
 > Gambas es un lenguaje de programación libre derivado de BASIC (de ahí que Gambas quiere decir **G**ambas **A**lmost **M**eans **Bas**ic). Se distribuye con licencia GNU GPL. Cabe destacar que presenta ciertas similitudes con Java, ya que para la ejecución de cualquier aplicación, se requiere un intérprete previamente instalado (Gambas Runtime) que entienda el bytecode de las aplicaciones desarrolladas y lo convierta en código ejecutable por el computador [(wikipedia)](https://es.wikipedia.org/wiki/Gambas).
 
