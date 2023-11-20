@@ -92,17 +92,21 @@ Luego de varios intentos me dí por vencido, esta [imagen](https://i.pinimg.com/
 
 Conocí LaTeX en el año 1993, de la mano de Horacio Suárez, recién llegado de México venía de trabajar en una editorial orientada a las matemáticas, me lo mostro en una máquina corriendo [MS-DOS](https://es.wikipedia.org/wiki/MS-DOS) y ejecutando el editor [epsilon](https://lugaru.com/), me sorprendió mucho, pero no fue hasta 10 años después, cuando abandone la preprensa y la imprenta para dedicarme de lleno a la edición que le empecé a dar un uso intenso.
 
-En los últimos años estuve trabajando con [Markdown](https://es.wikipedia.org/wiki/Markdown) y [AsciiDoc](https://en.wikipedia.org/wiki/AsciiDoc) (con el intérprete [asciidoctor](https://asciidoctor.org/)), y aún hoy los sigo usando (los artículos de este blog lo escribo en markdown).
+En los últimos años estuve trabajando con [Markdown](https://es.wikipedia.org/wiki/Markdown) y [AsciiDoc](https://en.wikipedia.org/wiki/AsciiDoc) (con el intérprete [asciidoctor](https://asciidoctor.org/)), y aún hoy los sigo usando (los artículos de este blog los escribo en markdown).
 
 ### Botones para muestra
 
-Para poder graficar mejor lo dicho en el párrafo anterior, dejo muestras de características obtenidas en mi trabajo diario con LaTeX, que son imposibles de obtener con otros lenguajes (y con programas de DTP) que explican mejor a que me refiero cuando utilizo la expresión **alta calidad tipográfica**.
+Para poder graficar mejor lo dicho en el párrafo anterior, dejo muestras de características obtenidas en mi trabajo diario con LaTeX, que son imposibles de obtener con otros lenguajes (o con programas para DTP del mercado) que explican mejor a que me refiero cuando utilizo la expresión **alta calidad tipográfica**.
 
 ### Homeoarchy
+
+Control de inconsistencia de principio y fin de linea.
 
 ![](https://albertomoyano.github.io/blog-personal/images/home.png)
 
 ### Formateo automático ortotipográfico
+
+Se puede observar que la tabla de la base de datos, no contiene bastardillas, ni puntos, ni versalitas, etc.
 
 {{< highlight bibtex >}}
 @Book{Mazlish1995,
@@ -122,6 +126,8 @@ Y esta es la salida que se obtiene en el PDF.
 
 ### Posición de los objetos en la página
 
+Se tiene control sobre cualquier posición _x-y_ de la página para posicionar objetos, incluso otra página (que también se interpreta como un objeto).
+
 ![](https://albertomoyano.github.io/blog-personal/images/objeto.png)
 
 ### Contadores separados
@@ -130,7 +136,7 @@ Estos cuatro ejemplos son solo la punta del iceberg, puede sonar exagerado, pero
 
 ## Pequeña radiografía de LaTeX
 
-LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensiva en la generación de textos científicos. Fue escrito por [Leslie Lamport](https://es.wikipedia.org/wiki/Leslie_Lamport) en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica [TeX](https://es.wikipedia.org/wiki/TeX), creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además es software libre bajo [licencia LPPL](https://es.wikipedia.org/wiki/LaTeX_Project_Public_License).
+LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensiva en la generación de textos científicos. Fue escrito por [Leslie Lamport](https://es.wikipedia.org/wiki/Leslie_Lamport) en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica [TeX](https://es.wikipedia.org/wiki/TeX), creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además de ser software libre bajo [licencia LPPL](https://es.wikipedia.org/wiki/LaTeX_Project_Public_License).
 
 Los archivos de LaTeX presentan una primera división de dos partes:
 
@@ -200,11 +206,11 @@ No soy programador, me identifico plenamente como editor con una fuerte formaci�
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla10.png)
 
-Y si bien los motivos en mi elección son varios, también pueden ser cuestionados, aquí dejo los más importantes:
+Y si bien los motivos en mi elección son varios, también acepto que puedan ser cuestionados, dejo aquí los más importantes para mi elección:
 
 1. No programo para terceros, lo hago para mí uso personal.
-2. Utilizo Linux (desde 1993) en el 90% de mis tareas, y me siento muy cómodo con el entorno de trabajo.
-3. No soy fanático del 100% comandos, ni del 100% mouse, creo en un equilibrio que saque lo mejor de esos modelos.
+2. Utilizo Linux (desde hace 30 años, desde 1993) en el 90% de mis tareas, y me siento muy cómodo con el entorno de trabajo.
+3. No soy fanático del 100% comandos, ni del 100% mouse, creo en un equilibrio que saque lo mejor de esos modelos, según la necesidad.
 4. Gambas es un [RAD](https://es.wikipedia.org/wiki/Desarrollo_r%C3%A1pido_de_aplicaciones).
 5. Es muy rápido y potente [(Benchmarks)](https://gambas.sourceforge.net/en/main.html#).
 
@@ -216,16 +222,15 @@ Por motivos que superan las expectativas de este artículo y sabiendo que todas 
 
 ## Descarga e instalación de la aplicación
 
-Por los mismos motivos que explique en un párrafo anterior, dejo la lista de programas que deben estar instalados para utlizar gbTeXpublisher sin problemas.
+El programa solo tiene dependencia de Pandoc y Sigil, doy por descartado que LaTeX ya debe estar instalado, sugiero se instale la versión _full_ (aproximadamente 3.8 gigas).
 
-1. [TeXlive](https://tug.org/texlive/) (yo tengo instalada la versión provista por la distribución)
-2. [Pandoc](https://pandoc.org/)
+Si bien en gambas se pueden hacer empaquetado para las principales distribuciones, yo soy de la vieja escuela, así que lo que está disponible es un empaquetado .tar.gz para instalar con **autotools**, que por supuesto, no falla nunca.
 
-La descarga se realiza desde el repositorio del programa, dentro de cada carpeta que se corresponde con una distribución hay varios archivos...
+Este es el link de descarga para la última versión [v431](https://gambas.sourceforge.net/en/main.html#).
 
 ## Comenzando con gbTeXpublisher
 
-Cuando se está editando un solo libro, se pueden tener ciertas libertades, pero cuando se tienen 7 o 9 libros de manera constante en el flujo de producción, la cosa cambia. El orden y el principio de [DRY](https://es.wikipedia.org/wiki/No_te_repitas) se vuelve más que importante si queremos tener una sana optimización de los recursos. En gbTeXpublisher se van a encontar funciones predefinidas (rígidas) que aseguran comportamientos contínuos, estables y predecibles.
+Cuando se está editando un solo libro, se pueden tener ciertas libertades, pero cuando se tienen 7 o 9 libros de manera constante en el flujo de producción, la cosa cambia. El orden y el principio de [DRY](https://es.wikipedia.org/wiki/No_te_repitas) se vuelve más que importante si queremos tener una sana optimización de los recursos. En gbTeXpublisher se van a encontar funciones predefinidas (y rígidas) que aseguran comportamientos estables y predecibles.
 
 Luego de instalar gbTeXpublisher encontraremos una carpeta oculta dentro del `home.user` (léase carpeta personal), donde se alojara la base de datos, el proceso de instalación copia una base de datos con un número determinado de entradas que sirven como ejemplo, esto vale para las notas y las referencias bibliográficas. En la figura a continuación lo resalto con una línea roja.
 
