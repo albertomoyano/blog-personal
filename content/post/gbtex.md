@@ -220,7 +220,7 @@ Por motivos que superan las expectativas de este artículo y sabiendo que todas 
 
 ![](https://albertomoyano.github.io/blog-personal/images/manjaro.png)
 
-## Descarga e instalación de la aplicación
+## Descarga e instalación de gbTeXpublisher
 
 El programa solo tiene dependencia de Pandoc y Sigil, doy por descartado que LaTeX ya debe estar instalado, sugiero se instale la versión _full_ (aproximadamente 3.8 gigas).
 
