@@ -21,11 +21,11 @@ gbTeXpublisher posee [licencia GPL3](https://www.gnu.org/licenses/gpl-3.0.en.htm
 
 Este artículo es un intento de presentación formal y me parece oportuno comenzar con una introducción teórica sobre los modelos de producción editorial al día de hoy.
 
-Creo que es posible decir que la edición es íntegramente digital desde comienzo de los noventa, ya que los diferentes intervinientes del proceso editorial, han terminado incorporando a las computadoras en su uso diario para escribir y producir, así también podemos asegurar que hoy las imprentas (por dar un ejemplo del proceso) solo reciben trabajos en formato digital.
+En este sentido, es posible observar que la edición es íntegramente digital desde comienzo de los noventa, ya que los diferentes intervinientes del proceso editorial, han terminado incorporando a los sistemas informáticos en su uso diario, ya sea para escribir o producir editorialmente, también podemos asegurar que las imprentas (por dar un ejemplo del proceso) hoy solo reciben trabajos en formato digital.
 
-Sin embargo, también es posible observar que la tradición editorial no ha sabido captar --al menos hasta ahora-- que este cambio en la forma de producir, no refiere solo al hecho de utilizar nuevas técnicas, herramientas o dispositivos, sino también a la pérdida de los fundamentos básicos que existen en el proceso de edición.
+Sin embargo, se puede observar que la tradición editorial no ha podido --o sabido-- captar que este cambio en la forma de producir no refiere solo al hecho de utilizar nuevas técnicas, herramientas o dispositivos, sino también, a la pérdida de los fundamentos básicos que existen en el proceso de edición.
 
-La idea que propongo consiste en trabajar sobre un modelo de edición estandarizada, automatizada, multiformato y multisoporte, o como es conocida: **edición ramificada**. Para lograr esto es necesario evitar cualquier tipo de enfoque [WYSIWYG](https://es.wikipedia.org/wiki/WYSIWYG) para dar lugar a un enfoque [WYSIWYM](https://es.wikipedia.org/wiki/WYSIWYM).
+La idea que propongo consiste en trabajar sobre un modelo de edición estandarizada, automatizada, multiformato y multisoporte (y que no atenta contra el diseño), conocida como **edición ramificada**. Para lograr esto es necesario evitar cualquier tipo de enfoque [WYSIWYG](https://es.wikipedia.org/wiki/WYSIWYG) para dar lugar a un enfoque [WYSIWYM](https://es.wikipedia.org/wiki/WYSIWYM).
 
 [Brian Kernighan](https://es.wikipedia.org/wiki/Brian_Kernighan) dijo alguna vez que el problema con el WYSIWYG (*lo que ves es lo que obtienes*) es que en realidad *lo que ves es **TODO** lo que obtienes*.  Las interfaces gráficas son excelentes para muchas cosas y yo las utilizo de manera constante. Pero también uso la consola con un *Shell* cuando necesito elasticidad, ya que es mucho más conveniente para algunas tareas, ahí entra el [WYSIWYM](https://es.wikipedia.org/wiki/WYSIWYM).
 
