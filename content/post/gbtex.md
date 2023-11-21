@@ -1,7 +1,7 @@
 +++
 author = "Alberto Moyano"
 title= "Presentación de gbTeXpublisher"
-date = 2023-09-27T19:49:16-03:00
+date = 2023-11-21
 description = "Presentación de gbTeXpublisher, marco teórico"
 tags = ["LaTeX", "gbTeXpublisher",]
 pin = true
@@ -132,7 +132,7 @@ Estos ejemplos son solo la punta del iceberg, puede sonar exagerado, pero se ent
 
 ## Pequeña radiografía de LaTeX
 
-LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensiva en la generación de textos científicos. Fue escrito por [Leslie Lamport](https://es.wikipedia.org/wiki/Leslie_Lamport) en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica [TeX](https://es.wikipedia.org/wiki/TeX), creado por [Donald Knuth](https://es.wikipedia.org/wiki/Donald_Knuth). A resumidas cuentas, LaTeX es un conjunto de macros de TeX, y cuenta con una licencia de software libre bajo [licencia LPPL](https://es.wikipedia.org/wiki/LaTeX_Project_Public_License).
+LaTeX es un sistema de composición tipográfica, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensiva en la generación de textos científicos. Fue escrito por [Leslie Lamport](https://es.wikipedia.org/wiki/Leslie_Lamport) en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica [TeX](https://es.wikipedia.org/wiki/TeX), creado por [Donald Knuth](https://es.wikipedia.org/wiki/Donald_Knuth). A resumidas cuentas, LaTeX es un conjunto de macros de TeX, y cuenta con una licencia de software libre bajo [licencia LPPL](https://es.wikipedia.org/wiki/LaTeX_Project_Public_License).
 
 Los archivos de LaTeX presentan una primera división de dos partes:
 
@@ -273,7 +273,7 @@ Si los directorios **originales** y **media**, ya existian porque se hizo la con
 
 ![](https://albertomoyano.github.io/blog-personal/images/sample.png)
 
-Dentro del directorio **files** se agregaran los archivos mostrados en la imagen a continuación, estos son los diferentes preámbulos y archivos de configuración para las diferentes salidas, si cualquiera de estos archivos fuera modificado, no será reemplazado al volver (en un momento diferente) a cargar la aolicación, solo será agregado nuevamente aquél archivo que por error hubiera sido eliminado.
+Dentro del directorio **files** se agregaran los archivos mostrados en la imagen a continuación, estos son los diferentes preámbulos y archivos de configuración para las diferentes salidas, si cualquiera de estos archivos fuera modificado, no será reemplazado al volver (en un momento diferente) a cargar la aplicación, solo será agregado nuevamente aquél archivo que por error hubiera sido eliminado.
 
 ![](https://albertomoyano.github.io/blog-personal/images/sample2.png)
 
