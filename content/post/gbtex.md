@@ -7,8 +7,6 @@ tags = ["LaTeX", "gbTeXpublisher",]
 pin = true
 +++
 
-**Artículo en desarrollo**
-
 gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya que desde hace bastante tiempo adhiero a la edición ramificada y encuentro en [LaTeX](https://es.wikipedia.org/wiki/LaTeX) la vía apropiada para conseguirlo, hice intentos con markdown, asciidoc y asciidoctor, pero al final del recorrido siempre encontraba problemas, fundamentalmente en la salida a PDF, me estoy refiriendo a una salida con un alto estándar de calidad tipográfica.
 
 <!--more-->
@@ -19,7 +17,7 @@ gbTeXpublisher es también el resultado del enorme trabajo de muchas personas, q
 
 gbTeXpublisher posee [licencia GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html), y por supuesto el acceso al código del repositorio es público.
 
-Este artículo es un intento de presentación formal (aunque todavía el desarrollo se encuentre en esta _beta_) y me parece oportuno comenzar con una introducción teórica sobre los modelos de producción editorial al día de hoy.
+Este artículo es un intento de presentación formal (aunque todavía el desarrollo se encuentre en estado de _beta_) y me parece oportuno comenzar con una introducción teórica sobre los modelos de producción editorial al día de hoy.
 
 Es posible observar que la edición es íntegramente digital desde comienzo de los noventa, ya que los diferentes intervinientes en el proceso editorial, han terminado incorporando a los sistemas informáticos en su uso diario, ya sea para escribir o producción editorial, también podemos asegurar que las imprentas (por dar un ejemplo del proceso) hoy solo reciben trabajos en formato digital.
 
@@ -130,13 +128,11 @@ Se tiene control sobre cualquier posición _x-y_ de la página para posicionar o
 
 ![](https://albertomoyano.github.io/blog-personal/images/objeto.png)
 
-### Contadores separados
-
-Estos cuatro ejemplos son solo la punta del iceberg, puede sonar exagerado, pero se entiende mejor cuando se asimila a LaTeX como lo que es, _un lenguaje de programación para la composición tipográfica_, y **no** como un programa de armado.
+Estos ejemplos son solo la punta del iceberg, puede sonar exagerado, pero se entiende mejor cuando se asimila a LaTeX como lo que es, _un lenguaje de programación para la composición tipográfica_, y **no** como un programa de armado.
 
 ## Pequeña radiografía de LaTeX
 
-LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensiva en la generación de textos científicos. Fue escrito por [Leslie Lamport](https://es.wikipedia.org/wiki/Leslie_Lamport) en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica [TeX](https://es.wikipedia.org/wiki/TeX), creado por Donald Knuth. A resumidas cuentas, LaTeX es un conjunto de macros de TeX, además de ser software libre bajo [licencia LPPL](https://es.wikipedia.org/wiki/LaTeX_Project_Public_License).
+LaTeX es un sistema de composición tipográfico, orientado a la creación de documentos escritos con una alta calidad tipográfica. Por sus características y posibilidades, es usado de manera intensiva en la generación de textos científicos. Fue escrito por [Leslie Lamport](https://es.wikipedia.org/wiki/Leslie_Lamport) en 1984, con la intención de facilitar el uso del lenguaje de composición tipográfica [TeX](https://es.wikipedia.org/wiki/TeX), creado por [Donald Knuth](https://es.wikipedia.org/wiki/Donald_Knuth). A resumidas cuentas, LaTeX es un conjunto de macros de TeX, y cuenta con una licencia de software libre bajo [licencia LPPL](https://es.wikipedia.org/wiki/LaTeX_Project_Public_License).
 
 Los archivos de LaTeX presentan una primera división de dos partes:
 
@@ -192,6 +188,8 @@ Este artículo no es un curso de LaTeX, en la red hay a montones, pero con esta 
 
 ## ¿Entonces?
 
+DESARROLLAR
+
 ![](https://albertomoyano.github.io/blog-personal/images/archivo.png)
 
 La figura a continuación muestra un resumen de cómo es el flujo de trabajo, es importante resaltar la posibilidad que existe de recuperar cualquier trabajo antiguo, indistintamente del formato que tenga.
@@ -210,13 +208,13 @@ Y si bien los motivos en mi elección son varios, también acepto que puedan ser
 
 1. No programo para terceros, lo hago para mí uso personal.
 2. Utilizo Linux (desde hace 30 años, desde 1993) en el 90% de mis tareas, y me siento muy cómodo con el entorno de trabajo.
-3. No soy fanático del 100% comandos, ni del 100% mouse, creo en un equilibrio que saque lo mejor de esos modelos, según la necesidad.
+3. No soy fanático del 100% comandos, ni del 100% mouse, creo en un equilibrio que saque lo mejor de cada modelo, según la necesidad.
 4. Gambas es un [RAD](https://es.wikipedia.org/wiki/Desarrollo_r%C3%A1pido_de_aplicaciones).
 5. Es muy rápido y potente [(Benchmarks)](https://gambas.sourceforge.net/en/main.html#).
 
 ## Algunas aclaraciones sobre Linux
 
-Por motivos que superan las expectativas de este artículo y sabiendo que todas las distribuciones de GNU-Linux tienen diferencias en las librerías gráficas, voy a mostrar cual es el equipo con el que desarrollo y trabajo a diario utilizando gbTeXpublisher, cualquier persona que este intentando utilizar la aplicación y tenga diferencias en la distribución de los elementos de la interfaz gráfica, me puede contactar indicando que distribución utiliza, con cuál librería gráfica y entorno de escritorio y veré de hacer pruebas de control.
+Por motivos que superan las expectativas de este artículo y sabiendo que todas las distribuciones de GNU Linux tienen diferencias en las librerías gráficas, voy a mostrar cual es el equipo con el que desarrollo y trabajo a diario utilizando gbTeXpublisher, cualquier persona que este intentando utilizar la aplicación y tenga diferencias en la distribución de los elementos de la interfaz gráfica, me puede contactar indicando que distribución utiliza, con cuál librería gráfica y entorno de escritorio y veré de hacer pruebas de control.
 
 ![](https://albertomoyano.github.io/blog-personal/images/manjaro.png)
 
@@ -224,9 +222,9 @@ Por motivos que superan las expectativas de este artículo y sabiendo que todas 
 
 El programa solo tiene dependencia de Pandoc y Sigil, doy por descartado que LaTeX ya debe estar instalado, sugiero se instale la versión _full_ (aproximadamente 3.8 gigas).
 
-Si bien en gambas se pueden hacer empaquetado para las principales distribuciones, yo soy de la vieja escuela, así que lo que está disponible es un empaquetado .tar.gz para instalar con **autotools**, que por supuesto, no falla nunca.
+Si bien en gambas se puede hacer empaquetado para las principales distribuciones, yo soy de la vieja escuela, así que lo que está disponible es un empaquetado .tar.gz para instalar con **autotools**, que por supuesto, no falla nunca.
 
-Este es el link de descarga para la última versión [v431](https://gambas.sourceforge.net/en/main.html#).
+Este es el _link_ de descarga para la última versión disponible [(gbTeXpublisher v431)](https://www.edicionesimagomundi.com/).
 
 ## Comenzando con gbTeXpublisher
 
@@ -244,7 +242,7 @@ Una vez que hayamos seleccionado un archivo para trabajar, la pantalla puede par
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla02.png)
 
-Volviendo al inicio, en un párrafo anterior dije que algunos menúes están deshabilitados hasta que se elija un archivo `.tex` para trabajar, otros sí están habilitados, estos se corresponden con tareas que involucran el área de trabajo, otros archivos y tareas no vinculadas con el proceso de compilación.
+Volviendo al inicio, en un párrafo anterior dije que algunos menúes están deshabilitados hasta que se elija un archivo `.tex` para trabajar, pero otros sí están habilitados.
 
 El primero que encontramos es el formulario para la conversión de archivos word (`.docx`) a formato `.tex`, el proceso se realiza utilizando [pandoc](https://pandoc.org/), junto con la conversión se realizan dos tareas más: 1) se crean 2 carpetas (originales y media) dentro del directorio de trabajo y 2) se mueve el archivo word a la carpeta originales.
 
@@ -281,7 +279,7 @@ Dentro del directorio **files** se agregaran los archivos mostrados en la imagen
 
 ## Referencias bibliográficas
 
-El formulario para manejar las referencias bibliográficas, el programa trabaja con [SQLite](https://es.wikipedia.org/wiki/SQLite), que para trabajar de manera individual, es lo mejor que conozco, pero si el trabajo se quisiera realizar en modo colaborativo (en red, abierta o cerrada), debería migrar a otro motor (analizo [MaríaDB](https://es.wikipedia.org/wiki/MariaDB) como opción).
+A continuación vemos el formulario para manejar las referencias bibliográficas, el programa trabaja con [SQLite](https://es.wikipedia.org/wiki/SQLite), que para trabajar de manera individual, es lo mejor que conozco, pero si el trabajo se quisiera realizar en modo colaborativo (en red, abierta o cerrada), debería migrar a otro motor (analizo [MaríaDB](https://es.wikipedia.org/wiki/MariaDB) como opción).
 
 Todas las entradas están basadas en [BibLaTeX](https://www.ctan.org/pkg/biblatex) que es una reimplementación completa de las funciones bibliográficas proporcionadas por LaTeX. El formato está completamente controlado por macros de LaTeX. BibLaTeX utiliza su propio analizador de datos llamado «biber» (escrito en [Perl](https://es.wikipedia.org/wiki/Perl)) para procesar los datos bibliográficos.
 
@@ -295,11 +293,15 @@ Por _default_ gbTeXpublisher para la clase _book_ entrega un archivo configurado
 
 ## Siglas y glosarios
 
-Las siglas, glosarios y nomenclaturas se pueden dar de alta desde este formulario, lo que implica que quedan registrados en la base de datos, o se pueden agregar directamente en el archivo `.tex`.
+Las siglas y glosarios se pueden dar de alta desde este formulario, lo que implica que quedan registrados en la base de datos, esto permite la reutilización de los valores, también es posible agregar entradas directamente en el archivo `.tex`.
 
 ![](https://albertomoyano.github.io/blog-personal/images/glosarios.png)
 
 ## Catálogo automatizado
+
+Una de las cuestiones que necesitaba resolver de manera automatizada, era el catálogo en formato PDF, hasta la versión actual la construcción se hace con una plantilla fija, los datos se toman de los metadatos y solo quedan unos pocos datos para agregar manualmente, en un futuro espero agregar plantillas para disponer de diferentes diseños.
+
+El PDF que obtengo lo llevo a un directorio en donde se encuentran todas las páginas de los diferentes libros y un _script_ hace el trabajo de _costura_ sumando todos los archivos más una tapa en un solo archivo resultante.
 
 ![](https://albertomoyano.github.io/blog-personal/images/catalogo.png)
 
@@ -321,7 +323,9 @@ Las siglas, glosarios y nomenclaturas se pueden dar de alta desde este formulari
 
 ## El trabajo en equipo
 
-El método [Kanban](https://es.wikipedia.org/wiki/Kanban_(desarrollo))
+> Kanban, cuyo significado es letrero o tarjeta en japonés,​ es un sistema de información que controla de modo armónico la fabricación de los productos necesarios en la cantidad y tiempo necesarios en cada uno de los procesos que tienen lugar tanto en el interior de la fábrica, como entre distintas empresas [(Wikipedia)](https://es.wikipedia.org/wiki/Kanban).
+
+Kanban en GitLab
 
 ![](https://albertomoyano.github.io/blog-personal/images/kanban.png)
 
