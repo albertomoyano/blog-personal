@@ -254,6 +254,12 @@ El segundo es el formulario de apuntes, su idea y desarrollo surgieron de manera
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla08.png)
 
+## Configurando las salidas
+
+![](https://albertomoyano.github.io/blog-personal/images/build.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/configurepub.png)
+
 ## Ahora bien, comenzamos con el trabajo
 
 Luego de seleccionar un archivo, si miramos la carpeta contenedora del proyecto, veremos que se han creado nuevos directorios:
@@ -273,28 +279,6 @@ Dentro del directorio **files** se agregaran los archivos mostrados en la imagen
 
 ![](https://albertomoyano.github.io/blog-personal/images/sample2.png)
 
-Dentro de la ventana principal veremos cuatro solapas tabuladas:
-
-![](https://albertomoyano.github.io/blog-personal/images/pantalla03.png)
-
-![](https://albertomoyano.github.io/blog-personal/images/pantalla04.png)
-
-1. Terminal
-
-En la terminal se ven todas las salidas de los diferentes procesos, la terminal esta disponible para interacturar (con comandos) en caso de ser necesario.
-
-2. Configurar
-
-Desde aquí se accede a los archivos de configuración para la compilación (archivo build.lua y config*), se pueden editar, pero es solo una comodidad, los archivos también pueden ser editados por fuera.
-
-3. Directorio
-
-Se accede al directorio de trabajo para funciones mínimas sin necesidad de recurrir al manejador de archivos del SO.
-
-4. GitLab
-
-![](https://albertomoyano.github.io/blog-personal/images/pantalla05.png)
-
 ## Referencias bibliográficas
 
 El formulario para manejar las referencias bibliográficas, el programa trabaja con [SQLite](https://es.wikipedia.org/wiki/SQLite), que para trabajar de manera individual, es lo mejor que conozco, pero si el trabajo se quisiera realizar en modo colaborativo (en red, abierta o cerrada), debería migrar a otro motor (analizo [MaríaDB](https://es.wikipedia.org/wiki/MariaDB) como opción).
@@ -311,9 +295,21 @@ Por _default_ gbTeXpublisher para la clase _book_ entrega un archivo configurado
 
 ## Siglas y glosarios
 
+Las siglas, glosarios y nomenclaturas se pueden dar de alta desde este formulario, lo que implica que quedan registrados en la base de datos, o se pueden agregar directamente en el archivo `.tex`.
+
 ![](https://albertomoyano.github.io/blog-personal/images/glosarios.png)
 
-Las siglas, glosarios y nomenclaturas se pueden dar de alta desde este formulario, lo que implica que quedan registrados en la base de datos, o se pueden agregar directamente en el archivo `.tex`.
+## Catálogo automatizado
+
+![](https://albertomoyano.github.io/blog-personal/images/catalogo.png)
+
+## Estadísticas
+
+![](https://albertomoyano.github.io/blog-personal/images/estadisticas.png)
+
+## Logfile
+
+![](https://albertomoyano.github.io/blog-personal/images/logfile.png)
 
 ## Git local y remoto como copia de seguridad temporal
 
@@ -327,7 +323,7 @@ Las siglas, glosarios y nomenclaturas se pueden dar de alta desde este formulari
 
 El método [Kanban](https://es.wikipedia.org/wiki/Kanban_(desarrollo))
 
-![](https://albertomoyano.github.io/blog-personal/images/pantalla16.png)
+![](https://albertomoyano.github.io/blog-personal/images/kanban.png)
 
 ## Copia de seguridad del trabajo terminado
 

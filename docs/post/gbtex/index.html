@@ -189,7 +189,7 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
                         </div>
                       </div>
                     </details-menu>
-                      3448 palabras
+                      3366 palabras
                     
 
                   </div>
@@ -383,6 +383,9 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla06.png" alt=""></p>
 <p>El segundo es el formulario de apuntes, su idea y desarrollo surgieron de manera natural. Antes de gbTeXpublisher, a medida que iba trabajando tomaba apuntes sobre el proceso, ya sea consultas que debía hacer, buscar en otros archivos ese pedazo de código que alguna vez use o simplemente apuntes de ayuda memoria temporal, todo eso es lo que se vuelca en este formulario, el programa almacena toda la información en la base de datos.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla08.png" alt=""></p>
+<h2 id="configurando-las-salidas">Configurando las salidas</h2>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/build.png" alt=""></p>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/configurepub.png" alt=""></p>
 <h2 id="ahora-bien-comenzamos-con-el-trabajo">Ahora bien, comenzamos con el trabajo</h2>
 <p>Luego de seleccionar un archivo, si miramos la carpeta contenedora del proyecto, veremos que se han creado nuevos directorios:</p>
 <ol>
@@ -397,25 +400,6 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <p><img src="https://albertomoyano.github.io/blog-personal/images/sample.png" alt=""></p>
 <p>Dentro del directorio <strong>files</strong> se agregaran los archivos mostrados en la imagen a continuación, estos son los diferentes preámbulos y archivos de configuración para las diferentes salidas, si cualquiera de estos archivos fuera modificado, no será reemplazado al volver (en un momento diferente) a cargar la aolicación, solo será agregado nuevamente aquél archivo que por error hubiera sido eliminado.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/sample2.png" alt=""></p>
-<p>Dentro de la ventana principal veremos cuatro solapas tabuladas:</p>
-<p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla03.png" alt=""></p>
-<p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla04.png" alt=""></p>
-<ol>
-<li>Terminal</li>
-</ol>
-<p>En la terminal se ven todas las salidas de los diferentes procesos, la terminal esta disponible para interacturar (con comandos) en caso de ser necesario.</p>
-<ol start="2">
-<li>Configurar</li>
-</ol>
-<p>Desde aquí se accede a los archivos de configuración para la compilación (archivo build.lua y config*), se pueden editar, pero es solo una comodidad, los archivos también pueden ser editados por fuera.</p>
-<ol start="3">
-<li>Directorio</li>
-</ol>
-<p>Se accede al directorio de trabajo para funciones mínimas sin necesidad de recurrir al manejador de archivos del SO.</p>
-<ol start="4">
-<li>GitLab</li>
-</ol>
-<p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla05.png" alt=""></p>
 <h2 id="referencias-bibliográficas">Referencias bibliográficas</h2>
 <p>El formulario para manejar las referencias bibliográficas, el programa trabaja con <a href="https://es.wikipedia.org/wiki/SQLite">SQLite</a>, que para trabajar de manera individual, es lo mejor que conozco, pero si el trabajo se quisiera realizar en modo colaborativo (en red, abierta o cerrada), debería migrar a otro motor (analizo <a href="https://es.wikipedia.org/wiki/MariaDB">MaríaDB</a> como opción).</p>
 <p>Todas las entradas están basadas en <a href="https://www.ctan.org/pkg/biblatex">BibLaTeX</a> que es una reimplementación completa de las funciones bibliográficas proporcionadas por LaTeX. El formato está completamente controlado por macros de LaTeX. BibLaTeX utiliza su propio analizador de datos llamado «biber» (escrito en <a href="https://es.wikipedia.org/wiki/Perl">Perl</a>) para procesar los datos bibliográficos.</p>
@@ -424,15 +408,21 @@ gbTeXpublisher nace como resultado de una necesidad concreta –la mía– ya qu
 <h2 id="metadatos">Metadatos</h2>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/metadatos.png" alt=""></p>
 <h2 id="siglas-y-glosarios">Siglas y glosarios</h2>
-<p><img src="https://albertomoyano.github.io/blog-personal/images/glosarios.png" alt=""></p>
 <p>Las siglas, glosarios y nomenclaturas se pueden dar de alta desde este formulario, lo que implica que quedan registrados en la base de datos, o se pueden agregar directamente en el archivo <code>.tex</code>.</p>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/glosarios.png" alt=""></p>
+<h2 id="catálogo-automatizado">Catálogo automatizado</h2>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/catalogo.png" alt=""></p>
+<h2 id="estadísticas">Estadísticas</h2>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/estadisticas.png" alt=""></p>
+<h2 id="logfile">Logfile</h2>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/logfile.png" alt=""></p>
 <h2 id="git-local-y-remoto-como-copia-de-seguridad-temporal">Git local y remoto como copia de seguridad temporal</h2>
 <p><a href="https://es.wikipedia.org/wiki/GitLab">GitLab</a></p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla14.png" alt=""></p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla15.png" alt=""></p>
 <h2 id="el-trabajo-en-equipo">El trabajo en equipo</h2>
 <p>El método <a href="https://es.wikipedia.org/wiki/Kanban_(desarrollo)">Kanban</a></p>
-<p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla16.png" alt=""></p>
+<p><img src="https://albertomoyano.github.io/blog-personal/images/kanban.png" alt=""></p>
 <h2 id="copia-de-seguridad-del-trabajo-terminado">Copia de seguridad del trabajo terminado</h2>
 <p>Llegado a este punto, el trabajo está terminado, el libro impreso, la versión electrónica subida al repositorio, etcétera. Ha llegado el momento de guardar todo en un depósito de respaldo, yo personalmente utilizo <a href="https://es.wikipedia.org/wiki/Mega_(sitio_web)">Mega</a>, su relación costo/beneficio para este menester es la mejor (hay más opciones, por supuesto), también tengo un abono en Google para expandir mi cuota en Drive, pero lo utilizo para otras cosas. El menú <strong>Comprimir directorio para respaldo</strong>, básicamente lo que hace es una copia comprimiendo todo en formato <a href="https://es.wikipedia.org/wiki/Tar"><code>.tar.gz</code></a>, la imagen a continuación lo dice todo. Después solo resta llevar ese archivo al repositorio de respaldo.</p>
 <p><img src="https://albertomoyano.github.io/blog-personal/images/pantalla17.png" alt=""></p>
