@@ -258,7 +258,7 @@ El segundo es el formulario de apuntes, su idea y desarrollo surgieron de manera
 
 ![](https://albertomoyano.github.io/blog-personal/images/build.png)
 
-![](https://albertomoyano.github.io/blog-personal/images/configurepub.png)
+![](https://albertomoyano.github.io/blog-personal/images/configepub.png)
 
 ## Ahora bien, comenzamos con el trabajo
 
