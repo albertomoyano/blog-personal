@@ -291,6 +291,10 @@ Por _default_ gbTeXpublisher para la clase _book_ entrega un archivo configurado
 
 ![](https://albertomoyano.github.io/blog-personal/images/metadatos.png)
 
+![](https://albertomoyano.github.io/blog-personal/images/autores.png)
+
+![](https://albertomoyano.github.io/blog-personal/images/coleccion.png)
+
 ## Siglas y glosarios
 
 Las siglas y glosarios se pueden dar de alta desde este formulario, lo que implica que quedan registrados en la base de datos, esto permite la reutilización de los valores, también es posible agregar entradas directamente en el archivo `.tex`.
