@@ -222,6 +222,8 @@ Por motivos que superan las expectativas de este artículo y sabiendo que todas 
 
 El programa solo tiene dependencia de Pandoc y Sigil, doy por descartado que LaTeX ya está instalado, sugiero tener instalada la versión _full_ (aproximadamente 3.8 gigas).
 
+También es necesario tener una cuenta en [gitlab](https://gitlab.com/), la versión gratuita es más que suficiente.
+
 Si bien en gambas se puede hacer empaquetado para las principales distribuciones, pero para evitar posibles conflictos con las diferentes distribuciones, lo que está disponible es un empaquetado **autotools**.
 
 El video del siguiente enlace explica el procedimiento [(ver video)](https://www.dropbox.com/scl/fi/atk3ply6qro7ndo17zed3/gbTeXpublisher-0.0.431.tar.gz?rlkey=u26d712eg85tpmpptbr5yim31&dl=1).
