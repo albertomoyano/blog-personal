@@ -220,17 +220,19 @@ Por motivos que superan las expectativas de este artículo y sabiendo que todas 
 
 ## Descarga e instalación de gbTeXpublisher
 
-El programa solo tiene dependencia de Pandoc y Sigil, doy por descartado que LaTeX ya debe estar instalado, sugiero se instale la versión _full_ (aproximadamente 3.8 gigas).
+El programa solo tiene dependencia de Pandoc y Sigil, doy por descartado que LaTeX ya está instalado, sugiero tener instalada la versión _full_ (aproximadamente 3.8 gigas).
 
-Si bien en gambas se puede hacer empaquetado para las principales distribuciones, yo soy de la vieja escuela, así que lo que está disponible es un empaquetado .tar.gz para instalar con **autotools**, que por supuesto, no falla nunca.
+Si bien en gambas se puede hacer empaquetado para las principales distribuciones, pero para evitar posibles conflictos con las diferentes distribuciones, lo que está disponible es un empaquetado **autotools**.
 
-Este es el _link_ de descarga para la última versión disponible [(gbTeXpublisher v431)](https://www.edicionesimagomundi.com/).
+El video del siguiente enlace explica el procedimiento [(ver video)](https://www.dropbox.com/scl/fi/atk3ply6qro7ndo17zed3/gbTeXpublisher-0.0.431.tar.gz?rlkey=u26d712eg85tpmpptbr5yim31&dl=1).
+
+Este es el _link_ de descarga para la última versión disponible [(gbTeXpublisher v431)](https://www.dropbox.com/scl/fi/atk3ply6qro7ndo17zed3/gbTeXpublisher-0.0.431.tar.gz?rlkey=u26d712eg85tpmpptbr5yim31&dl=1).
 
 ## Comenzando con gbTeXpublisher
 
 Cuando se está editando un solo libro, se pueden tener ciertas libertades, pero cuando se tienen 7 o 9 libros de manera constante en el flujo de producción, la cosa cambia. El orden y el principio de [DRY](https://es.wikipedia.org/wiki/No_te_repitas) se vuelve más que importante si queremos tener una sana optimización de los recursos. En gbTeXpublisher se van a encontar funciones predefinidas (y rígidas) que aseguran comportamientos estables y predecibles.
 
-Luego de instalar gbTeXpublisher encontraremos una carpeta oculta dentro del `home.user` (léase carpeta personal), donde se alojara la base de datos, el proceso de instalación copia una base de datos con un número determinado de entradas que sirven como ejemplo, esto vale para las notas y las referencias bibliográficas. En la figura a continuación lo resalto con una línea roja.
+Luego de instalar gbTeXpublisher encontraremos una carpeta oculta dentro del **`home.user`** (léase carpeta personal), donde se alojara la base de datos, el proceso de instalación copia una base de datos con un número determinado de entradas que sirven como ejemplo, esto vale para las notas y las referencias bibliográficas. En la figura a continuación lo resalto con una línea roja.
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla11.png)
 
@@ -242,9 +244,9 @@ Una vez que hayamos seleccionado un archivo para trabajar, la pantalla puede par
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla02.png)
 
-Volviendo al inicio, en un párrafo anterior dije que algunos menúes están deshabilitados hasta que se elija un archivo `.tex` para trabajar, pero otros sí están habilitados.
+Volviendo al inicio, en un párrafo anterior dije que algunos menúes están deshabilitados hasta que se elija un archivo **`.tex`** para trabajar, pero otros sí están habilitados.
 
-El primero que encontramos es el formulario para la conversión de archivos word (`.docx`) a formato `.tex`, el proceso se realiza utilizando [pandoc](https://pandoc.org/), junto con la conversión se realizan dos tareas más: 1) se crean 2 carpetas (originales y media) dentro del directorio de trabajo y 2) se mueve el archivo word a la carpeta originales.
+El primero que encontramos es el formulario para la conversión de archivos word (**`.docx`**) a formato **`.tex`**, el proceso se realiza utilizando [pandoc](https://pandoc.org/), junto con la conversión se realizan dos tareas más: 1) se crean 2 carpetas (originales y media) dentro del directorio de trabajo y 2) se mueve el archivo word a la carpeta originales.
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla06.png)
 
@@ -269,7 +271,7 @@ Luego de seleccionar un archivo, si miramos la carpeta contenedora del proyecto,
 5. originales
 6. tapa
 
-Si los directorios **originales** y **media**, ya existian porque se hizo la conversión de `.docx` a `.tex` utilizando gbTeXpublisher, estos no se sobreescriben y se mantiene sin modificaciones su contenido.
+Si los directorios **originales** y **media**, ya existian porque se hizo la conversión de **`.docx`** a **`.tex`** utilizando gbTeXpublisher, estos no se sobreescriben y se mantiene sin modificaciones su contenido.
 
 ![](https://albertomoyano.github.io/blog-personal/images/sample.png)
 
@@ -297,7 +299,7 @@ Por _default_ gbTeXpublisher para la clase _book_ entrega un archivo configurado
 
 ## Siglas y glosarios
 
-Las siglas y glosarios se pueden dar de alta desde este formulario, lo que implica que quedan registrados en la base de datos, esto permite la reutilización de los valores, también es posible agregar entradas directamente en el archivo `.tex`.
+Las siglas y glosarios se pueden dar de alta desde este formulario, lo que implica que quedan registrados en la base de datos, esto permite la reutilización de los valores, también es posible agregar entradas directamente en el archivo **`.tex`**.
 
 ![](https://albertomoyano.github.io/blog-personal/images/glosarios.png)
 
@@ -335,7 +337,7 @@ Kanban en GitLab
 
 ## Copia de seguridad del trabajo terminado
 
-Llegado a este punto, el trabajo está terminado, el libro impreso, la versión electrónica subida al repositorio, etcétera. Ha llegado el momento de guardar todo en un depósito de respaldo, yo personalmente utilizo [Mega](https://es.wikipedia.org/wiki/Mega_(sitio_web)), su relación costo/beneficio para este menester es la mejor (hay más opciones, por supuesto), también tengo un abono en Google para expandir mi cuota en Drive, pero lo utilizo para otras cosas. El menú **Comprimir directorio para respaldo**, básicamente lo que hace es una copia comprimiendo todo en formato [`.tar.gz`](https://es.wikipedia.org/wiki/Tar), la imagen a continuación lo dice todo. Después solo resta llevar ese archivo al repositorio de respaldo.
+Llegado a este punto, el trabajo está terminado, el libro impreso, la versión electrónica subida al repositorio, etcétera. Ha llegado el momento de guardar todo en un depósito de respaldo, yo personalmente utilizo [Mega](https://es.wikipedia.org/wiki/Mega_(sitio_web)), su relación costo/beneficio para este menester es la mejor (hay más opciones, por supuesto), también tengo un abono en Google para expandir mi cuota en Drive, pero lo utilizo para otras cosas. El menú **Comprimir directorio para respaldo**, básicamente lo que hace es una copia comprimiendo todo en formato [**`.tar.gz`**](https://es.wikipedia.org/wiki/Tar), la imagen a continuación lo dice todo. Después solo resta llevar ese archivo al repositorio de respaldo.
 
 ![](https://albertomoyano.github.io/blog-personal/images/pantalla17.png)
 
