@@ -220,15 +220,17 @@ Por motivos que superan las expectativas de este artículo y sabiendo que todas 
 
 ## Descarga e instalación de gbTeXpublisher
 
-El programa solo tiene dependencia de Pandoc y Sigil, doy por descartado que LaTeX ya está instalado, sugiero tener instalada la versión _full_ (aproximadamente 3.8 gigas).
+El programa tiene dependencia de Pandoc y [Sigil](https://sigil-ebook.com/sigil/), doy por descartado que LaTeX ya está instalado, sugiero tener instalada la versión _full_ (aproximadamente 4 gigas).
 
 También es necesario tener una cuenta en [gitlab](https://gitlab.com/), la versión gratuita es más que suficiente.
 
-Si bien en gambas se puede hacer empaquetado para las principales distribuciones, pero para evitar posibles conflictos con las diferentes distribuciones, lo que está disponible es un empaquetado **autotools**.
+Si bien en gambas se puede hacer el empaquetado para las principales distribuciones de GNU Linux, para evitar posibles conflictos, lo que está disponible es un empaquetado **autotools**.
 
-El video del siguiente enlace explica el procedimiento [(ver video)](https://www.dropbox.com/scl/fi/atk3ply6qro7ndo17zed3/gbTeXpublisher-0.0.431.tar.gz?rlkey=u26d712eg85tpmpptbr5yim31&dl=1).
+El video del siguiente enlace explica el procedimiento de uso [(ver video)](https://www.dropbox.com/scl/fi/atk3ply6qro7ndo17zed3/gbTeXpublisher-0.0.431.tar.gz?rlkey=u26d712eg85tpmpptbr5yim31&dl=1).
 
 Este es el _link_ de descarga para la última versión disponible [(gbTeXpublisher v431)](https://www.dropbox.com/scl/fi/atk3ply6qro7ndo17zed3/gbTeXpublisher-0.0.431.tar.gz?rlkey=u26d712eg85tpmpptbr5yim31&dl=1).
+
+Para los que quieran hacer una bifurcación del proyecto, este es la ruta de [gbTeXpublisher](https://gitlab.com/alberto.alejandro.moyano/gbtexpublisher) para compilar desde las fuentes.
 
 ## Comenzando con gbTeXpublisher
 
